@@ -1,4 +1,9 @@
-## Hi there 👋
+## Hi there I am David 👋
+
+- 🔭 I’m currently working on a standardized vehicle data model, calle **Vehicle Signals Specification** for BMW Group in collaboration with [COVESA](https://github.com/COVESA/vehicle_signal_specification)
+- 🌱 I’m currently learning how to use Github.
+- 👯 I’m looking to collaborate on ideas of Software Defined Vehicle.
+- 🤔 I’m looking for help with defining a stable vehicle interface invluding versioning.
 
 <!--
 **DavidMatzek/DavidMatzek** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
