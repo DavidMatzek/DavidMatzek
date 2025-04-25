@@ -5,6 +5,7 @@
 - 👯 I’m looking to collaborate on ideas of Software Defined Vehicle a version control.
 - 🤔 I’m looking for help with defining a stable vehicle interface including versioning.
 - 💬 Ask me about automotive E/E software architecture and sowftware development.
+- 📫 How to reach me: david.dm.matzek@bmw.de
 
 <!--
 **DavidMatzek/DavidMatzek** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
