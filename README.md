@@ -33,7 +33,7 @@ Here are some ideas to get you started:
 * Masters Degree in Systems Enigneering
 * Bachelors Degree in Electrotechnical Engineering
 * Apprenticeship in Mechatronitcs
-+ 
+
 <!--
 ## 
 -->
