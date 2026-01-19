@@ -67,6 +67,16 @@ industry-embedded learning**.
 
 ---
 
+## Abitur (General University Entrance Qualification)  
+**Theodor-Heuss-Gymnasium Nördlingen**  
+*Completed 2010*
+
+### Focus
+- General higher education qualification with a strong foundation in
+  mathematics, natural sciences, and analytical thinking
+
+  ---
+
 ## Educational Summary
 
 - Strong foundation in **systems engineering and architecture**
