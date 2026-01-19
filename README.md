@@ -9,6 +9,14 @@ business needs and technical implementation.
 
 ---
 
+## Repository Overview
+➡️ click: 
+- [Professional Experience](experience.md)
+- [Data & Architecture Work](architecture.md)
+- [Patents & Publications](patents-publications.md)
+
+---
+
 ## What I Work On
 
 - Designing and governing **domain-wide data architectures**
