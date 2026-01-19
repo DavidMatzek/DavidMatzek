@@ -1,39 +1,75 @@
-## Hi there I am David 👋
+# Hi, I’m David 👋
 
-- 🔭 I’m currently working on a standardized vehicle data model, called **Vehicle Signals Specification** for BMW Group in collaboration with [COVESA](https://github.com/COVESA/vehicle_signal_specification)
-- 🌱 I’m currently learning how to transition tree based data model into scheme definition language.
-- 👯 I’m looking to collaborate on ideas of Software Defined Vehicle.
-- 🤔 I’m looking for help with integrating AI to automate processes.
-- 💬 Ask me about automotive E/E software architecture, sowftware development and business processes.
-- 📫 How to reach me: david.matzek@bmw.de / david.matzek@gmx.de
+I am a **Lead Data Designer & Systems Engineer** with a strong background in
+**data architecture, system standardization, and large-scale digital platforms**.
 
-<!--
-**DavidMatzek/DavidMatzek** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+My work focuses on designing **robust, future-proof data models** and
+**architectural principles** for complex, distributed systems, bridging
+business needs and technical implementation.
 
-Here are some ideas to get you started:
+---
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## What I Work On
 
-## Successes
-* Implemented COVESA VSS-Tools V5.0 in BMW Vehicle Data Model.
-* Setup an Lead a the Data Design Process for vehicle data at BMW.
-* Implemented a data middleware for vehicle data in Neue Klasse architeture.
-* Released Intelligent Customer Facing functions in all BMW derivatives from 20218 on.
-* Released several Patent Specifications.
+- Designing and governing **domain-wide data architectures**
+- Standardizing data models across heterogeneous systems and platforms
+- Translating business requirements into **scalable technical abstractions**
+- Enabling **software-defined systems** through clean data and interface design
+- Improving development efficiency through **system thinking & frontloading**
 
-## Education
-* Masters Degree in Systems Enigneering
-* Bachelors Degree in Electrotechnical Engineering
-* Apprenticeship in Mechatronitcs
+---
 
-<!--
-## 
--->
+## Current Focus
+
+- Standardized domain data models and semantic consistency
+- Transitioning tree-based data structures into **schema-based definitions**
+- Data abstraction layers and integration architectures
+- Applying architectural principles across industries
+- Exploring **automation and AI-assisted processes** in data & system design
+
+---
+
+## Selected Contributions & Impact
+
+- Defined and implemented a **standardized domain data model** used across
+  multiple product lines.
+- Established and led a **data design process** in a large enterprise
+  organization.
+- Designed and integrated a **data middleware layer** for distributed systems.
+- Delivered multiple **customer-facing digital functions** from ideation
+  to series release.
+- Authored and co-authored several **patent specifications** in the field
+  of data-driven and software-defined systems.
+
+---
+
+## Areas You Can Ask Me About
+
+- Data Architecture & Data Lifecycle Design
+- Domain Modeling & Ontologies
+- Distributed & Embedded Systems
+- Software-Defined Platforms
+- Enterprise Architecture & Process Design
+- Bridging Business, Product, and Engineering
+
+---
+
+## Background
+
+- M.Sc. in Systems Engineering  
+- B.Eng. in Mechatronics / Electrical Engineering  
+- Strong industry background in large-scale, safety-critical environments
+
+---
+
+## Collaboration & Contact
+
+I’m interested in exchanging ideas around:
+- Data architecture & platform design
+- Standardization initiatives
+- Cross-industry application of system thinking
+- Automation & AI in engineering processes
+
+📫 **Contact:**  
+- david.matzek@gmx.de  
+- LinkedIn: https://www.linkedin.com/in/david-matzek-04114a10a
