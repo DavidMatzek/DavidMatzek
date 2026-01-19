@@ -14,6 +14,7 @@ business needs and technical implementation.
 - [Professional Experience](experience.md)
 - [Data & Architecture Work](architecture.md)
 - [Patents & Publications](patents-publications.md)
+- [Architectural Principles](architecture.md)
 
 ---
 
