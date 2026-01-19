@@ -82,9 +82,3 @@ I’m interested in exchanging ideas around:
 📫 **Contact:**  
 - david.matzek@gmx.de  
 - LinkedIn: https://www.linkedin.com/in/david-matzek-04114a10a
-
-
-➡️ See:
-- [Professional Experience](experience.md)
-- [Data & Architecture Work](architecture.md)
-- [Patents & Publications](patents-publications.md)
