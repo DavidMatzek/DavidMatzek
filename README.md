@@ -45,10 +45,11 @@ business needs and technical implementation.
 - Established and led a **data design process** in a large enterprise
   organization.
 - Designed and integrated a **data middleware layer** for distributed systems.
-- Delivered multiple **customer-facing digital functions** from ideation
+- Delivered multiple in car **customer-facing digital functions** from ideation
   to series release.
 - Authored and co-authored several **patent specifications** in the field
   of data-driven and software-defined systems.
+- 
 
 ---
 
@@ -68,6 +69,7 @@ business needs and technical implementation.
 - M.Sc. in Systems Engineering  
 - B.Eng. in Mechatronics / Electrical Engineering  
 - Strong industry background in large-scale, safety-critical environments
+- 
 
 ---
 
@@ -80,5 +82,5 @@ I’m interested in exchanging ideas around:
 - Automation & AI in engineering processes
 
 📫 **Contact:**  
-- david.matzek@gmx.de  
+- david.matzek@proton.me  
 - LinkedIn: https://www.linkedin.com/in/david-matzek-04114a10a
