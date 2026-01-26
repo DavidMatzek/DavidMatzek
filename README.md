@@ -58,16 +58,7 @@ From strategy to implementation – across industries.
 
 ## Selected Contributions & Impact
 
-- Defined and implemented a **standardized domain data model** used across
-  multiple product lines.
-- Established and led a **data design process** in a large enterprise
-  organization.
-- Designed and integrated a **data middleware layer** for distributed systems.
-- Delivered multiple in car **customer-facing digital functions** from ideation
-  to series release.
-- Authored and co-authored several **patent specifications** in the field
-  of data-driven and software-defined systems.
-- 
+> click -  [Mini-Cases](minicases.md)
 
 ---
 
