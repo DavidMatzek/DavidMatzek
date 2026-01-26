@@ -12,7 +12,7 @@ From strategy to implementation – across industries.
 
 ---
 
-## Executive Summary 
+## Executive Summary
 
 - 8+ years designing data & system architectures in highly complex environments.
 - Strong background in data standardization, - modeling & - governance.
@@ -22,16 +22,19 @@ From strategy to implementation – across industries.
 
 ---
 
-## Repository Overview
+## Details
 ➡️ click: 
-- [Core Competencies](competencies.md)
-- [Mini-Cases](minicases.md)
-- [Professional Experience](experience.md)
-- [Patents & Publications](patents-publications.md)
-- [Architectural Principles](architecture.md)
-- [CV]
+- ### [Core Competencies](competencies.md)
+- ### [Mini-Cases](minicases.md)
+- ### [Professional Experience](experience.md)
+- ### [Direction Interests]
+- ### [Patents & Publications](patents-publications.md)
+- ### [Architectural Principles](architecture.md)
+- ### [CV]
 
 ---
+
+# My Activity
 
 ## What I Work On
 
