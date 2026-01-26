@@ -31,7 +31,7 @@
 
 ---
 
-# Case: Conzepualise Data Middleware to provide standardized data.
+# Case: Conzepualisef Data Middleware to provide standardized data.
 
 ## Context: 
 - In order to facilitate development and data analytics standarized vehilce data was needed accross automotive indutriy.
@@ -59,25 +59,30 @@
 
 ---
 
-# Case: Leading a tree based standardization language into an onthology.
+# Case: Integrating Data By Design into Automtive Development Process.
+
+
+---
+
+# Case: Leading a tree based standardization language into an onthology, to accelerate AI development.
 
 ## Context:
-Large-scale system landscape with heterogeneous data sources 
-and multiple consumer domains.
+- At BMW [COVESA Vehicle Signal Specification](https://github.com/COVESA/vehicle_signal_specification) is used to standardize data and make it easy to understand and easy to find data points even to non-expterts. 
+- The tree structured yaml format raises a fundamental Issues.
+- There is a solution needed to enable simple governance close to domain knowledge as well as the possibility to imprint domain knowledge into the data model. 
 
 ## Challenge:
-High integration effort, inconsistent semantics, limited scalability.
+- In 2026 Automotive Indutry faces uncertainty and a weak chinese market, budget is low.
+- There is not a known solution to address these problems.
+- high time pressure.
 
 ## My Role:
-Lead architect responsible for data modeling and governance principles.
+- Lead architect responsible for data modeling and governance principles. Product Owner of the VSS-model used by BMW. 
 
 ## Key Decisions:
-• Introduced canonical data models
-• Defined lifecycle and ownership principles
-• Aligned business and technical stakeholders
+- Close Collaboration with COVESA in order to find a solution.
+  
 
 ## Outcome:
-• Reduced integration complexity
-• Improved cross-domain data usability
-• Enabled scalable future extensions
+- open :D 
 
