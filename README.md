@@ -24,13 +24,13 @@ From strategy to implementation – across industries.
 
 ## Details
 ➡️ click: 
-- ### [Core Competencies](competencies.md)
-- ### [Mini-Cases](minicases.md)
-- ### [Professional Experience](experience.md)
-- ### [Direction Interests](interests.md)
-- ### [Patents & Publications](patents-publications.md)
-- ### [Architectural Principles](architecture.md)
-- ### [CV]
+-  [Core Competencies](competencies.md)
+-  [Mini-Cases](minicases.md)
+-  [Professional Experience](experience.md)
+-  [Direction Interests](interests.md)
+-  [Patents & Publications](patents-publications.md)
+-  [Architectural Principles](architecture.md)
+-  [CV]
 
 ---
 
