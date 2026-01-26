@@ -7,7 +7,7 @@
 - BMW wanted to introduce intelligent funtions in car, that benefit customers with a wow-effect.
 - Over 50 customers functions stared development.
 
-## Challanges:
+## Challenges:
 - Project started way behind development schedule.
 - Multiple departments competed for budget in a political fashion.
 - Various Stakeholders at a time (Savety of Use, Data Protection, User Expereience, Implementers, Testers, Plants, Quality Managers, ...)
@@ -16,8 +16,8 @@
 - Tight budget
 
 ## My Role:
-- I was a **Function Owner** with End to End technical responsability for two functions
-- Focus shifted from E/E architecture -> functional design including UX -> implementation -> testing -> series support
+- I was a **Function Owner** with End to End technical responsability for two functions.
+- Focus shifted from E/E architecture -> functional design including UX -> implementation -> testing -> series support.
 
 ## Key Decisions:
 - Developing the committed functions without political involvement.
@@ -31,36 +31,52 @@
 
 ---
 
-Case: Conzepualise Data Middleware to provide standardized data.
+# Case: Conzepualise Data Middleware to provide standardized data.
 
-Challange:
+## Context: 
+- In order to facilitate development and data analytics standarized vehilce data was needed accross automotive indutriy.
+- To prepare integration of AI, the same data format should exist in car and in backend systems. 
 
-My Role:
+## Challenges:
+- Project Stakholders from different departments had an intense conflict. The predecessor left the project.
+- Highly complex sourrounding systems, affected by constant changes, sometimes released without documentation.
+- Target was not accepted, there was no implementer named. 
 
-Key Decisions:
+## My Role:
+- Centeral **Vehicle Data Architect**: Responsible to design a solution for which some department takes over responsiblity for implementation.
 
-Outcome:
+## Key Decisions:
+- Close collaboration and trust building among various stakeholders.
+- Participation in COVESA All members Meeting, to present architectural concept and testing strategy to ged high qulity feedback from specialists across automotive industiries.
+- Offer Data Mddle Ware inside data collection framework, so all data collectors profit at one.
+- Integrate Data Middleware in MBSE and interconnect ist with board net data base and [Vehicle Signal Specification](https://github.com/COVESA/vehicle_signal_specification).
+- Offer a code generator which produces data middle ware tailored to any derivative with its unique board net version.
+- Highly automate testing producing a landingpage with transparent test results.
+
+## Outcome:
+- Data Middelware is integrated in Neue Klasse E/E Architecture, starting with iX.
+- Patent Specification (currently in review).
 
 ---
 
-Case: Standardizing Data Across Multiple Touchpoints
+# Case: Leading a tree based standardization language into an onthology.
 
-Context:
+## Context:
 Large-scale system landscape with heterogeneous data sources 
 and multiple consumer domains.
 
-Challenge:
+## Challenge:
 High integration effort, inconsistent semantics, limited scalability.
 
-My Role:
+## My Role:
 Lead architect responsible for data modeling and governance principles.
 
-Key Decisions:
+## Key Decisions:
 • Introduced canonical data models
 • Defined lifecycle and ownership principles
 • Aligned business and technical stakeholders
 
-Outcome:
+## Outcome:
 • Reduced integration complexity
 • Improved cross-domain data usability
 • Enabled scalable future extensions
