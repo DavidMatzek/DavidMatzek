@@ -27,7 +27,7 @@ From strategy to implementation – across industries.
 - ### [Core Competencies](competencies.md)
 - ### [Mini-Cases](minicases.md)
 - ### [Professional Experience](experience.md)
-- ### [Direction Interests]
+- ### [Direction Interests](interests.md)
 - ### [Patents & Publications](patents-publications.md)
 - ### [Architectural Principles](architecture.md)
 - ### [CV]
