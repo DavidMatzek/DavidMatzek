@@ -6,19 +6,19 @@ Designing scalable data architectures for complex, regulated environments.
 From strategy to implementation – across industries.
 
 #### Focus:
-• Data Architecture & Governance
-• Complex Systems & Standards
-• Business ↔ Technology Translation
+- Data Architecture & Governance
+- Complex Systems & Standards
+- Business ↔ Technology Translation
 
 ---
 
 ## Executive Summary 
 
-• 8+ years designing data & system architectures in highly complex environments.
-• Strong background in data standardization, - modeling & - governance.
-• Experienced in bridging business, engineering and IT stakeholders.
-• Hands-on architecture work combined with strategic responsibility.
-• Proven track record in large-scale, long-term system landscapes.
+- 8+ years designing data & system architectures in highly complex environments.
+- Strong background in data standardization, - modeling & - governance.
+- Experienced in bridging business, engineering and IT stakeholders.
+- Hands-on architecture work combined with strategic responsibility.
+- Proven track record in large-scale, long-term system landscapes.
 
 ---
 
