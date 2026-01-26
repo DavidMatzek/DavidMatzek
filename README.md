@@ -1,19 +1,35 @@
 # Hi, I’m David 👋
 
-I am a **Lead Data Designer & Systems Engineer** with a strong background in
-**data architecture, system standardization, and large-scale digital platforms**.
+## Senior Data & Systems Architect
 
-My work focuses on designing **robust, future-proof data models** and
-**architectural principles** for complex, distributed systems, bridging
-business needs and technical implementation.
+Designing scalable data architectures for complex, regulated environments.
+From strategy to implementation – across industries.
+
+#### Focus:
+• Data Architecture & Governance
+• Complex Systems & Standards
+• Business ↔ Technology Translation
+
+---
+
+## Executive Summary 
+
+• 8+ years designing data & system architectures in highly complex environments.
+• Strong background in data standardization, - modeling & - governance.
+• Experienced in bridging business, engineering and IT stakeholders.
+• Hands-on architecture work combined with strategic responsibility.
+• Proven track record in large-scale, long-term system landscapes.
 
 ---
 
 ## Repository Overview
 ➡️ click: 
+- [Core Competencies](competencies.md)
+- [Mini-Cases](minicases.md)
 - [Professional Experience](experience.md)
 - [Patents & Publications](patents-publications.md)
 - [Architectural Principles](architecture.md)
+- [CV]
 
 ---
 
