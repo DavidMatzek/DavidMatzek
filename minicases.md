@@ -1,6 +1,49 @@
 ### [-> back to Overview](README.md)
 
 
+#### Case: First Standardized Service Interface in the BMW E/E Architecture
+
+**Context**  
+Highly coupled vehicle function architecture with safety-critical dependencies and legacy communication buses.
+
+**Challenge**  
+Enable high-level vehicle functions (e.g. speech interaction, automation) to control window movement without exposing functional logic or safety dependencies.
+
+**My Responsibility**  
+Architectural ownership of data abstraction and service interface definition for automated window control, from concept to series release.
+
+**Key Architectural Actions**  
+- Defined a strict service abstraction decoupling window control from functional and safety logic  
+- Designed a standardized service interface exposing movement requests, availability and unified position semantics  
+- Established information-hiding rules to enable reuse across brands and vehicle derivatives
+
+**Outcome**  
+Released the first standardized service interface for a low-level vehicle function, enabling uniform window control across all BMW Group brands and establishing a reusable blueprint for decoupled, data-centric architectures.
+
+
+---
+
+### Case: Middleware to Standardize Vehicle Data in a Software-Defined Vehicle
+
+**Context**  
+Highly heterogeneous and continuously evolving vehicle board networks with strong variant dependency and limited semantic consistency across derivatives and markets.
+
+**Challenge**  
+Abstract low-level vehicle data into a stable, standardized semantic model (VSS by COVESA) despite constant changes in board networks, organizational resistance and evolving external standards.
+
+**My Responsibility**  
+Architectural ownership of a data abstraction middleware, including the decision to introduce model-based data mapping as the single source of truth for standardization and scalability.
+
+**Key Architectural Actions**  
+- Established an MBSE-based approach to model and maintain semantic mappings between board network data and standardized vehicle signals.  
+- Introduced machine-readable model outputs and automated code generation to enable consistent integration across all derivatives . 
+- Enforced strict adherence to the external standard while extending it only where required by domain-specific needs.
+- Designed end-to-end validation through automated generation, simulation and fleet-wide board network analytics.
+
+**Outcome**  
+Enabled scalable vehicle data standardization across all derivatives, significantly reducing re-implementation effort and allowing software teams to focus on feature growth instead of data integration, while establishing a reusable blueprint for data-centric architectures.
+
+
 # Case: Developing Intelligent Functions to goLive.
 
 ## Context: 
