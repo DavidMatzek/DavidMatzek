@@ -1,134 +1,163 @@
-# Hi, I’m David 👋
+# David Matzek
 
-[//]: <> (Hero / Positionierung)
+Senior Data and Systems Architect with 8+ years of experience in complex,
+regulated environments.
 
-## Senior Data & Systems Architect
+## Value Proposition
 
-Designing scalable data architectures for complex, regulated environments.
-From strategy to implementation – across industries.
+When budget cuts hit, I remove the slow, manual work that blocks teams —
+with fixes that keep working long after I've moved on.
 
-#### Focus:
-- Data Architecture & Governance
-- Complex Systems & Standards
-- Business ↔ Technology Translation
+## Proof in Numbers
 
----
-[//]: <> (Executive Summary)
-## Executive Summary
+- Cut daily operating effort from 20 hours to 35 minutes for a 240-consumer data-model landscape after a staffing and budget cut.
+- Delivered a metadata self-service capability in 20 workdays, closing a request that had been open for 6 years.
+- Kept a mission-critical, always-on data model stable through a consultant budget cut with zero service interruption.
+- Replaced status-chasing with a self-service dashboard showing exactly where each process stands, what's missing, and what to do next.
 
-- 8+ years designing data & system architectures in highly complex environments.
-- Strong background in data standardization, - modeling & - governance.
-- Experienced in bridging business, engineering and IT stakeholders.
-- Hands-on architecture work combined with strategic responsibility.
-- Proven track record in large-scale, long-term system landscapes.
+## 30-Second Recruiter Snapshot
 
----
-[//]: <> (Selected Mini-Cases  - Teaser!)
+If your teams need to deliver faster under budget pressure without breaking
+long-term architecture, this is where I help.
 
-[//]: <> (Experience  - Kompakt!)
-## Professional Experience
+- Stabilize always-on, business-critical data operations.
+- Reduce overhead through AI-enabled automation and self-service.
+- Give full, data-backed transparency into where every process stands, what's missing, and what happens next.
+- Keep data models future-ready through governed evolution and release discipline.
 
-**BMW Group**  
-**Lead Data Designer / Data Architect** | 01/2023 – present  
-Architectural responsibility for enterprise-scale data standardization and governance across complex, cross-domain system landscapes.  
-Focus on scalable data models, semantic consistency and long-term platform architectures.
+Current focus: ownership of BMW's VSS-standardized data model, stewardship
+of petabyte-scale historized data, and delivery support for EU Data Act
+implementation across consuming systems.
 
-**BMW Group**  
-**E/E Data Architect** | 11/2021 – 12/2022  
-Contributor to data strategy and middleware-based data standardization for connected vehicles.  
-Responsible for data architecture concepts and cross-domain integration.
+## Recent Pattern: Called In When Budget Cuts Hit
 
-**BMW Group**  
-**Specialist Function Development** | 04/2017 – 11/2021  
-Functional ownership of intelligent in-car features from concept to series release.  
-Strong focus on system thinking, data abstraction and standardization.
+In July 2026, budget cuts hit across the organization. Instead of pausing
+delivery, management repeatedly assigned me to the critical projects most at
+risk.
 
----
+Result: Each project kept moving, and the slow, manual processes that had
+been holding those teams back were replaced with automation that keeps
+working without me — a sustainable fix, not a patch.
 
-## Education
+Why this matters for hiring teams:
 
-**M.Sc. Systems Engineering** — Hochschule München  
-**B.Eng. Mechatronics** — Hochschule Esslingen  
+- I get assigned the hardest problems when resources are tightest.
+- My fixes hold up after I move on to the next project.
+- Budget pressure becomes a trigger for lasting improvement, not just risk containment.
+- You always know where a process stands, because I make status visible with data, not status meetings.
 
----
+## Featured Case: Turnaround Under Budget Pressure
 
-## Selected Credentials
+Result: Daily operating effort dropped from 20 hours to 35 minutes for a
+240-consumer data model, a 6-year-old self-service request was delivered in
+20 workdays, and freed capacity was redirected to other budget-constrained
+projects.
 
-- Multiple international patents in data-driven vehicle systems  
-- Active contribution to open data standardization initiatives (COVESA)
+Context: From January 2026, a critical data-model operation had to continue
+after staffing changes and consultant budget cuts. The prior setup required
+one internal owner plus two external consultants.
 
+Approach:
 
-[//]: <> (Professional direction)
+- System-level architecture thinking to remove structural bottlenecks.
+- AI-driven implementation support with GitHub Copilot.
+- Focused process and model refactoring, prioritizing self-service.
 
-[//]: <> (Deep dive)
+Why this matters for hiring teams:
 
-## Details
-➡️ click: 
--  [Core Competencies](competencies.md)
--  [Architecture Cases](minicases.md)
--  [Professional Experience](experience.md)
--  [Patents & Publications](patents-publications.md)
--  [Architectural Principles](architecture.md)
--  [CV]
+- Delivery cost can be reduced through practical automation, not heavy process overhead.
+- Speed can increase without trading off architectural quality.
+- Teams get solutions that remain usable and maintainable over the long term.
+- Every consumer can see live, data-backed process status instead of asking for updates.
 
----
+## What You Can Hire Me For
 
-# My Activity
+### 1) Data standardization across heterogeneous systems
 
-## What I Work On
+When teams struggle with inconsistent data models across products, domains,
+or markets, I design a shared semantic model and governance path that enables
+reuse instead of rework.
 
-- Designing and governing **domain-wide data architectures**
-- Standardizing data models across heterogeneous systems and platforms
-- Translating business requirements into **scalable technical abstractions**
-- Enabling **software-defined systems** through clean data and interface design
-- Improving development efficiency through **system thinking & frontloading**
+Typical outcomes:
 
----
+- Less model fragmentation and duplicate implementation
+- Faster onboarding of new use cases
+- Better cross-team collaboration through shared language
 
-## Current Focus
+### 2) Building stable data interfaces for software-defined platforms
 
-- Standardized domain data models and semantic consistency
-- Transitioning tree-based data structures into **schema-based definitions**
-- Data abstraction layers and integration architectures
-- Applying architectural principles across industries
-- Exploring **automation and AI-assisted processes** in data & system design
+When product speed is blocked by tight coupling and unstable contracts,
+I define abstraction layers and interface rules that protect delivery teams
+from low-level volatility.
 
----
+Typical outcomes:
 
-## Selected Contributions & Impact
+- Clear producer-consumer boundaries
+- Backward-compatible interface evolution
+- Faster feature delivery without architectural debt spikes
 
-> click -  [Mini-Cases](minicases.md)
+### 3) Translating business goals into architecture decisions
 
----
+When stakeholders from business, product, engineering, and governance are
+misaligned, I structure trade-offs and convert strategic intent into concrete
+architecture principles and delivery choices.
 
-## Areas You Can Ask Me About
+Typical outcomes:
 
-- Data Architecture & Data Lifecycle Design
-- Domain Modeling & Ontologies
-- Distributed & Embedded Systems
-- Software-Defined Platforms
-- Enterprise Architecture & Process Design
-- Bridging Business, Product, and Engineering
+- Higher decision quality under time pressure
+- Transparent trade-offs and ownership
+- Better alignment between roadmap and technical implementation
 
----
+### 4) Governing long-term architecture in regulated environments
 
-## Background
+When systems must scale safely over years, I establish architecture guardrails
+for quality, testability, and maintainability without slowing teams down.
 
-- M.Sc. in Systems Engineering  
-- B.Eng. in Mechatronics / Electrical Engineering  
-- Strong industry background in large-scale, safety-critical environments
-- 
+Typical outcomes:
 
----
+- Consistent data and interface quality
+- Reduced long-term change cost
+- Better resilience in large legacy-heavy landscapes
 
-## Collaboration & Contact
+## Selected Track Record
 
-I’m interested in exchanging ideas around:
-- Data architecture & platform design
-- Standardization initiatives
-- Cross-industry application of system thinking
-- Automation & AI in engineering processes
+- Led domain-wide data architecture and standardization initiatives at BMW Group.
+- Designed middleware-based data standardization approaches for complex vehicle platforms.
+- Delivered customer-facing intelligent functions from concept to series release.
+- Contributed to open data standardization initiatives aligned with COVESA.
+- Co-inventor of multiple patents in data-driven vehicle systems.
 
-📫 **Contact:**  
-- david.matzek@proton.me  
-- LinkedIn: https://www.linkedin.com/in/david-matzek-04114a10a
+Detailed examples:
+
+- [minicases.md](minicases.md)
+- [experience.md](experience.md)
+- [patents-publications.md](patents-publications.md)
+
+## Core Profile
+
+- Data architecture, governance, and lifecycle design
+- Domain modeling, ontologies, and semantic consistency
+- System and platform architecture for software-defined environments
+- Business-to-technology translation and stakeholder alignment
+
+More detail:
+
+- [skills-tools.md](skills-tools.md)
+- [competencies.md](competencies.md)
+- [architecture.md](architecture.md)
+
+## For Recruiters and Hiring Teams
+
+If you share a target role, I can provide a role-specific CV version aligned
+to your requirements.
+
+Repository assets for tailored CV creation:
+
+- [profile/master/profile.yaml](profile/master/profile.yaml)
+- [profile/evidence/highlights.md](profile/evidence/highlights.md)
+- [cv/templates/cv-tailoring-template.md](cv/templates/cv-tailoring-template.md)
+
+## Contact
+
+- Email: [david.matzek@proton.me](mailto:david.matzek@proton.me)
+- LinkedIn: [linkedin.com/in/david-matzek-04114a10a](https://www.linkedin.com/in/david-matzek-04114a10a)

@@ -1,128 +1,104 @@
-### [-> back to Overview](README.md)
-
-
 # Professional Experience
 
-This document provides a detailed overview of my professional experience,
-with a focus on **data architecture, system design, and large-scale platform
-standardization** in complex, distributed environments.
+[Back to Overview](README.md)
+
+This document summarizes experience with a focus on data architecture,
+system design, and practical process improvement in complex,
+distributed environments. Each role lists a few outcome-focused
+highlights; full context is in [minicases.md](minicases.md).
 
 ---
 
-## Lead Data Designer  
-**BMW Group** — Global Enterprise Environment  
-*01/2023 – Present*
+## Data Steward and Data Model Owner
 
-### Context
-Large-scale transformation towards software-defined systems with increasing
-demands on data consistency, scalability, and cross-domain interoperability.
+**BMW Group - VSS Standardized Data Model and Historized Data**
+*01/2025 - Present*
 
-### Responsibilities
-- Architectural ownership of **domain-wide data concepts and data models**.
-- Definition of **data design principles** across multiple platforms and
-  digital touchpoints.
-- Establishment of semantic consistency through **ontology-based modeling**.
-- Design of data abstraction layers to decouple consumers from producers.
-- Architectural alignment between business, product, and engineering units.
-- Governance of data lifecycle, interfaces, and model evolution.
-- Coordination of multiple parallel initiatives under a unified architecture.
+Functional and operational ownership of BMW's VSS-standardized data model
+and petabyte-scale historized data, serving 240 consumers with weekly
+release management and EU Data Act delivery coordination.
 
-### Key Contributions & Impact
-- Designed a **standardized domain data architecture** used across multiple
-  systems and organizational units.
-- Introduced semantic versioning to ensure long-term data consistency and reuse.
-- Enabled scalable integration of new use cases without structural redesign.
-- Improved collaboration efficiency between teams through establishing open source data model with governance and CI/CD based testing.
-- Ensured architectural coherence across independently developed solutions.
-- Actively contributed to **open standardization initiative** of COVESA.
+- Stabilized always-on operations for 240 consumers after a staffing change and consultant budget cut, cutting daily effort from 20 hours to 35 minutes through AI-assisted refactoring and self-service design.
+- Delivered a metadata self-service page in 20 workdays, closing a request open since 2020 and reducing contractor dependency.
+- Migrating the model from taxonomic to graph-based structure with GraphQL SDL contracts to support future AI-ready use cases without disrupting live operations.
+- Governs the model through semantic versioning and CI/CD-backed quality checks, sustaining COVESA-aligned standardization across 240+ consumers without slowing weekly releases.
 
 ---
 
-## E/E Data Architect  
-**BMW Group** — Data Strategy & Platform Architecture  
-*11/2021 – 12/2022*
+## Lead Data Designer
 
-### Context
-Growing complexity of connected systems required a unified approach to data
-integration, standardization, variant- and lifecycle management.
+**BMW Group - Global Enterprise Environment**
+*01/2023 - 12/2024*
 
-### Responsibilities
-- Architecture of **data integration and middleware layers**.
-- Standardization of domain data across heterogeneous systems.
-- Definition of data tranformation from data generation to consumption.
-- Alignment of technical architecture with strategic data goals.
-- Collaboration with platform, security, and governance stakeholders.
+Integrated data design early into BMW's E/E development process to ensure
+car-internal data collectors would get the vehicle data they'd need, across
+a board net of 60+ ECUs where not every signal is broadly shared.
 
-### Key Contributions & Impact
-- Designed a middleware-based approach for **domain data standardization**.
-- Reduced redundancy and fragmentation in data models.
-- Improved data availability and consistency across platforms.
-- Enabled future extensibility through clean separation of concerns.
+- Established a new discipline within BMW's E/E Architecture process for identifying future vehicle data needs at the earliest design phase, closing a systemic gap across a 60+ ECU board net that no prior role owned.
+- Set architecture-level requirements for the E/E (physical data bus) to ensure identified data reached in-car data collectors by design, rather than being retrofitted after the fact.
+- Applied functional-ownership experience from learning-function development to anticipate data needs ahead of implementation, shifting the organization from reactive data-gap fixing to proactive data-availability planning.
 
 ---
 
-## Specialist – Function Development  
-**BMW Group** — Intelligent Digital Systems  
-*04/2017 – 11/2021*
+## E/E Data Architect
 
-### Context
-Development of intelligent, customer-facing digital in car functions within
-safety-critical, regulated environments.
+**BMW Group - Data Strategy and Platform Architecture**
+*11/2021 - 12/2022*
 
-### Responsibilities
-- Functional ownership of multiple digital features of **BMW Intelligent Assistant**.
-- Technical responsibility across the **V-Model**.
-- Coordination between software, system, and validation teams.
-- Translation of customer and business needs into technical solutions.
+Architecture of data integration and middleware layers to standardize
+domain data across heterogeneous, high-variant vehicle systems.
 
-### Key Contributions & Impact
-- Delivered **multiple customer-facing digital functions** from ideation to
-  series release.
-- Defined and implemented a **standardized process for domain data usage**
-  during development.
-- Developed concepts for automated data abstraction and frontloading.
-- Mentored **Bachelor and Master theses** with strong technical outcomes, that was used in serie development.
+- Designed a middleware-based standardization approach that reduced model redundancy and fragmentation across platforms.
+- Improved data availability and semantic consistency by defining a clear transformation path from generation to consumption.
+- Enabled future extensibility through clean separation of concerns, aligned with strategic data goals and governance stakeholders.
+
+---
+
+## Specialist - Function Development
+
+**BMW Group - Intelligent Digital Systems**
+*04/2017 - 11/2021*
+
+End-to-end technical ownership of customer-facing intelligent in-car
+functions in a safety-critical, regulated setting.
+
+- Delivered multiple customer-facing functions from concept to series release, generating two patent specifications.
+- Introduced a standardized process for domain data usage in development, reducing rework across teams.
+- Mentored Bachelor and Master thesis candidates whose results were adopted in series development.
 
 ---
 
 ## Academic Research (Industry-Embedded)
 
-### Master Thesis  
-**Efficiency in Software Development**  
-*07/2020 – 07/2021*
+### Master Thesis
 
-- Research on **frontloading strategies** using Model-Based Systems Engineering.
-- Analysis of development efficiency in complex, system-driven environments.
-- Demonstrated measurable reduction in late-stage changes through early
-  architectural modeling.
+**Efficiency in Software Development** - *07/2020 - 07/2021*
 
-### Bachelor Thesis  
-**External Perception of Autonomous Systems**  
-*07/2016 – 01/2017*
+Applied Model-Based Systems Engineering frontloading to reduce late-stage
+changes in complex system-driven development.
 
-- Research on human perception and interaction with autonomous systems.
-- Focus on behavioral responses in real-world traffic scenarios.
-- Contribution to system design considerations beyond pure technical function.
+### Bachelor Thesis
+
+**External Perception of Autonomous Systems** - *07/2016 - 01/2017*
+
+Researched human perception and interaction with autonomous systems in
+real-world traffic scenarios.
 
 ---
 
-## Early Career & Foundation
+## Early Career Foundation
 
-### Apprenticeship – Mechatronics (IHK)  
-**Industrial Production Environment**  
-*09/2010 – 07/2013*
+### Apprenticeship - Mechatronics (IHK)
 
-- Early responsibility in production and maintenance environments.
-- In-house project leadership with multi-million-euro scope.
-- Exposure to operational excellence, quality, and safety standards.
+**Industrial Production Environment** - *09/2010 - 07/2013*
+
+Led an in-house project with multi-million-euro scope, building a
+foundation in operational excellence, quality, and safety standards.
 
 ---
 
-## Summary of Experience
+## Summary
 
-- 10+ years in complex, safety-critical, and large-scale system environments.
-- Strong focus on **data architecture, standardization, and system thinking**.
-- Proven ability to bridge **business, architecture, and implementation**.
-- Experience in real world systems that include hardware and software with legacy.
-  
-
+- 8+ years in data and systems architecture, preceded by 5+ years in engineering roles, all within complex, safety-critical, large-scale environments.
+- Proven ability to bridge business, architecture, and implementation.
+- Track record of process efficiency through overhead automation, transparency, and self-service enablement.

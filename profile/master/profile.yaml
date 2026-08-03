@@ -1,0 +1,113 @@
+person:
+  name: David Matzek
+  headline: Senior Data and Systems Architect
+  location: Germany
+  contact:
+    email: david.matzek@proton.me
+    linkedin: https://www.linkedin.com/in/david-matzek-04114a10a
+
+positioning:
+  summary: >-
+    Data and systems architect with 8+ years in complex and regulated environments,
+    focused on domain data modeling, governance, and scalable platform architectures.
+  strengths:
+    - Business to technology translation across product, engineering, and IT
+    - Data standardization and semantic consistency in heterogeneous landscapes
+    - Architecture governance with long-term maintainability focus
+
+experience:
+  - company: BMW Group
+    role: Data Steward / Data Model Owner
+    start: 2025-01
+    end: Present
+    focus:
+      - Operational ownership of BMW's VSS-standardized data model and historized data
+      - Model evolution toward graph-based structure and GraphQL SDL
+      - Governance via semantic versioning and CI/CD-backed quality checks
+    outcomes:
+      - Stabilized 240-consumer operations after a staffing and budget cut, cutting daily effort from 20 hours to 35 minutes
+      - Delivered a metadata self-service page in 20 workdays
+      - Sustained COVESA-aligned standardization through automated governance
+
+  - company: BMW Group
+    role: Lead Data Designer
+    start: 2023-01
+    end: 2024-12
+    focus:
+      - Early-phase data design integration into BMW's E/E development process
+      - Identification of future vehicle data needs ahead of implementation
+      - Requirements definition toward E/E (physical data bus) architecture
+    outcomes:
+      - Established a new early-phase data-design discipline across a 60+ ECU board net, closing a systemic gap no prior role owned
+      - Set E/E (physical data bus) architecture requirements ensuring data availability by design, not retrofit
+      - Shifted the organization from reactive data-gap fixing to proactive, anticipatory data-availability planning
+
+  - company: BMW Group
+    role: E/E Data Architect
+    start: 2021-11
+    end: 2022-12
+    focus:
+      - Data integration and middleware architecture
+      - Standardization across heterogeneous systems
+      - Alignment of architecture with strategic data goals
+    outcomes:
+      - Middleware-based domain data standardization approach
+      - Reduced data model fragmentation and improved consistency
+
+  - company: BMW Group
+    role: Specialist Function Development
+    start: 2017-04
+    end: 2021-11
+    focus:
+      - End-to-end ownership for intelligent in-car functions
+      - V-model engineering coordination across teams
+      - Function design, implementation, validation, and release support
+    outcomes:
+      - Multiple customer-facing functions from concept to series release
+      - Standardized process for domain data usage in development
+
+education:
+  - degree: M.Sc. Systems Engineering
+    institution: University of Applied Sciences Munich
+    start: 2018-10
+    end: 2021-10
+  - degree: B.Eng. Mechatronics
+    institution: University of Applied Sciences Esslingen
+    start: 2013-10
+    end: 2017-01
+  - degree: Apprenticeship Mechatronics (IHK)
+    institution: BMW Group, Munich
+    start: 2010-09
+    end: 2013-07
+
+skills:
+  architecture_data:
+    - Data architecture (conceptual, logical, physical)
+    - Data governance, ownership, and lifecycle
+    - Ontologies, domain modeling, and semantic consistency
+  methods:
+    - Model-Based Systems Engineering (MBSE)
+    - Systems engineering across the V-model
+    - Trunk-based development and semantic versioning
+    - CI/CD and automated testing
+  tooling:
+    - Git and GitHub
+    - VS Code
+    - COVESA VSS and YAML data models
+    - JIRA, Confluence, ALM Octane
+
+languages:
+  - language: German
+    level: Native
+  - language: English
+    level: C1
+  - language: Spanish
+    level: B1
+
+credentials:
+  patents:
+    - WO2020083962A1
+    - WO2020011655A1
+    - DE102018209967A1
+  standards:
+    - Active contribution to COVESA

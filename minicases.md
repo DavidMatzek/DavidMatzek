@@ -1,131 +1,175 @@
-### [-> back to Overview](README.md)
+# Mini Cases
 
+[Back to Overview](README.md)
 
-#### Case: First Standardized Service Interface in the BMW E/E Architecture
+Each case leads with the result, followed by the situation and approach that
+produced it.
 
-**Context**  
-Highly coupled vehicle function architecture with safety-critical dependencies and legacy communication buses.
+## Featured Case: AI-Enabled Turnaround Under Budget Pressure
 
-**Challenge**  
-Enable high-level vehicle functions (e.g. speech interaction, automation) to control window movement without exposing functional logic or safety dependencies.
+Result: Daily operations dropped from an effective workload equivalent to
+about 20 hours/day to about 35 minutes/day for a 240+ consumer data model.
+A metadata self-service page requested since 2020 was delivered in 20
+workdays, contractor dependency dropped, and freed capacity was redirected
+to other budget-constrained projects.
 
-**My Responsibility**  
-Architectural ownership of data abstraction and service interface definition for automated window control, from concept to series release.
+Role Context:
 
-**Key Architectural Actions**  
-- Defined a strict service abstraction decoupling window control from functional and safety logic  
-- Designed a standardized service interface exposing movement requests, availability and unified position semantics  
-- Established information-hiding rules to enable reuse across brands and vehicle derivatives
+Data Steward and Data Model Owner (01/2025 - Present), with ownership of
+BMW's VSS-standardized data model and stewardship of historized
+petabyte-scale data.
 
-**Outcome**  
-Released the first standardized service interface for a low-level vehicle function, enabling uniform window control across all BMW Group brands and establishing a reusable blueprint for decoupled, data-centric architectures.
+Situation:
 
+From January 2026 to present, a critical data-model operation had to continue
+after staffing changes and consultant budget cuts. The previous setup relied
+on one internal owner plus two external consultants.
 
----
+Team Goal:
 
-### Case: Middleware to Standardize Vehicle Data in a Software-Defined Vehicle
+- Keep operations stable.
+- Reduce cost and overhead.
+- Improve quality for a data model serving 240+ consumers.
+- Build a support model that scales without contractor dependency.
 
-**Context**  
-Highly heterogeneous and continuously evolving vehicle board networks with strong variant dependency and limited semantic consistency across derivatives and markets.
+What Was Implemented:
 
-**Challenge**  
-Abstract low-level vehicle data into a stable, standardized semantic model (VSS by COVESA) despite constant changes in board networks, organizational resistance and evolving external standards.
+- Focus on the core earning process first.
+- Automate management and meta effort to the highest practical degree.
+- Refactor the underlying data model for reliability and maintainability.
+- Build a metadata self-service page with guided UI, transparency, and
+  clear next actions.
+- Use AI support with GitHub Copilot to accelerate execution.
 
-**My Responsibility**  
-Architectural ownership of a data abstraction middleware, including the decision to introduce model-based data mapping as the single source of truth for standardization and scalability.
+Reusable Method:
 
-**Key Architectural Actions**  
-- Established an MBSE-based approach to model and maintain semantic mappings between board network data and standardized vehicle signals.  
-- Introduced machine-readable model outputs and automated code generation to enable consistent integration across all derivatives.
-- Enforced strict adherence to the external standard while extending it only where required by domain-specific needs.
-- Designed end-to-end validation through automated generation, simulation and fleet-wide board network analytics.
-
-**Outcome**  
-Enabled scalable vehicle data standardization across all derivatives, significantly reducing re-implementation effort and allowing software teams to focus on feature growth instead of data integration, while establishing a reusable blueprint for data-centric architectures.
-
-
-# Case: Developing Intelligent Functions to goLive.
-
-## Context: 
-- BMW wanted to introduce intelligent functions in car, that benefit customers with a wow-effect.
-- Over 50 customer functions started development.
-
-## Challenges:
-- Project started way behind development schedule.
-- Multiple departments competed for budget in a political fashion.
-- Various Stakeholders at a time (Safety of Use, Data Protection, User Experience, Implementers, Testers, Plants, Quality Managers, ...)
-- Learning from customer behavior was a totally new field.
-- E/E Architecture was not prepared.
-- Tight budget
-
-## My Role:
-- I was a **Function Owner** with End to End technical responsibility for two functions.
-- Focus shifted from E/E architecture -> functional design including UX -> implementation -> testing -> series support.
-
-## Key Decisions:
-- Developing the committed functions without political involvement.
-- Keeping close contact to all relevant technical stakeholders.
-- Using Model Based Systems Engineering (MBSE) to describe and communicate functionality.
-
-## Outcome:
-- My two functions (Automated Window Opening, Learning Seat Climatization) were released in 2019 starting with G20. 42 other projects died along the way.
-- Two patent specifications were released.
-- Now the automated window opening has the best conversion rate and the highest use out of all intelligent functions in the 2025 portfolio.
+- Protect value creation first.
+- Automate overhead second.
+- Make process bottlenecks visible.
+- Let users resolve standard issues through self-service UX.
 
 ---
 
-# Case: Conceptualized Data Middleware to provide standardized data.
+## Case: First Standardized Service Interface in BMW E/E Architecture
 
-## Context: 
-- In order to facilitate development and data analytics, standardized vehicle data was needed across the automotive industry.
-- To prepare integration of AI, the same data format should exist in car and in backend systems. 
+Result: First standardized interface for a low-level vehicle function,
+enabling uniform window-control behavior across BMW Group brands and a
+reusable blueprint for decoupled, data-centric interfaces.
 
-## Challenges:
-- Project stakeholders from different departments had an intense conflict. The predecessor left the project.
-- Highly complex surrounding systems, affected by constant changes, sometimes released without documentation.
-- Target was not accepted, there was no implementer named. 
+Situation:
 
-## My Role:
-- Central **Vehicle Data Architect**: Responsible to design a solution for which some department takes over responsibility for implementation.
+Vehicle-function architecture was highly coupled, with safety-critical
+dependencies and legacy communication buses.
 
-## Key Decisions:
-- Close collaboration and trust building among various stakeholders.
-- Participation in COVESA All Members Meeting, to present architectural concept and testing strategy to get high quality feedback from specialists across automotive industries.
-- Offer Data Middleware inside data collection framework, so all data collectors profit at once.
-- Integrate Data Middleware in MBSE and interconnect it with board net database and [Vehicle Signal Specification](https://github.com/COVESA/vehicle_signal_specification).
-- Offer a code generator which produces data middleware tailored to any derivative with its unique board net version.
-- Highly automate testing producing a landing page with transparent test results.
+Team Goal:
 
-## Outcome:
-- Data Middleware is integrated in Neue Klasse E/E Architecture, starting with iX.
-- Patent Specification (currently in review).
+Enable higher-level functions such as speech interaction and automation to
+control window movement without exposing functional logic or safety logic.
+
+What Was Implemented:
+
+- Strict service abstraction separating window control from safety internals.
+- Standardized interface for movement requests, availability, and position semantics.
+- Information-hiding rules for reuse across brands and derivatives.
 
 ---
 
-# Case: Integrating Data By Design into Automtive Development Process.
+## Case: Middleware for Standardized Vehicle Data
 
+Result: Standardized vehicle data usage scaled across derivatives, cutting
+re-implementation effort and integration friction, and letting teams shift
+focus from reconciliation work to feature development.
+
+Situation:
+
+Vehicle networks were heterogeneous and continuously changing, creating
+high variant dependency and low semantic consistency.
+
+Team Goal:
+
+Abstract low-level vehicle data into a stable semantic model (VSS by COVESA)
+despite evolving systems, organizational friction, and changing standards.
+
+What Was Implemented:
+
+- MBSE mapping model as single source of truth.
+- Machine-readable outputs and generator-based integration for derivatives.
+- Controlled extension strategy while preserving standard alignment.
+- End-to-end validation via generation, simulation, and analytics.
 
 ---
 
-# Case: Leading a tree based standardization language into an ontology, to accelerate AI development.
+## Case: Intelligent Functions from Concept to Series Release
 
-## Context:
-- At BMW [COVESA Vehicle Signal Specification](https://github.com/COVESA/vehicle_signal_specification) is used to standardize data and make it easy to understand and easy to find data points even for non-experts. 
-- The tree structured YAML format raises a fundamental issue.
-- There is a solution needed to enable simple governance close to domain knowledge as well as the possibility to imprint domain knowledge into the data model. 
+Result: Two customer-facing functions reached series release in 2019,
+generating two patent specifications and increased portfolio value through
+sustained usage and conversion impact.
 
-## Challenge:
-- In 2026 the automotive industry faces uncertainty and a weak Chinese market, budget is low.
-- There is no known solution to address these problems.
-- High time pressure.
+Situation:
 
-## My Role:
-- Lead architect responsible for data modeling and governance principles. Product Owner of the VSS-model used by BMW. 
+An intelligent-function initiative faced high customer expectations, complex
+stakeholder requirements, late start, and tight budget.
 
-## Key Decisions:
-- Close Collaboration with COVESA in order to find a solution.
-  
+Team Goal:
 
-## Outcome:
-- open :D 
+- Deliver committed customer value under tight constraints.
+- Keep alignment across safety, privacy, UX, validation, and production.
 
+What Was Implemented:
+
+- Delivery focus on customer value without political drift.
+- Tight cross-functional technical coordination.
+- MBSE to align understanding across design, implementation, and testing.
+
+---
+
+## Case: Data Middleware Adoption Through Trust and Automation
+
+Result: Middleware was integrated into the Neue Klasse E/E architecture,
+giving teams a scalable path to consistent data across derivatives and
+initiating a patent specification from the solution direction.
+
+Situation:
+
+Need for standardized in-vehicle and backend data was clear, but ownership,
+acceptance, and implementation commitment were weak.
+
+Team Goal:
+
+- Build cross-department commitment to a common architecture direction.
+- Create an implementation path teams can actually adopt.
+
+What Was Implemented:
+
+- Transparent collaboration and trust building across departments.
+- Architecture and testing strategy validation with COVESA specialists.
+- Middleware embedded into existing data-collection framework for broad impact.
+- MBSE linkage to board-network sources and VSS.
+- Generator-based delivery and transparent automated testing.
+
+---
+
+## Current Case: Ontology-Based Evolution of Standardization Language
+
+Status: In progress. Target result is a governance model that stays close to
+domain knowledge and supports future AI use cases without reducing model
+clarity.
+
+Role Context:
+
+Data Steward and Data Model Owner (01/2025 - Present).
+
+Situation:
+
+Tree-based structures limit governance simplicity and semantic richness needed
+for future AI-enabled workflows.
+
+Team Goal:
+
+- Improve governance close to domain knowledge.
+- Support future AI use cases without reducing model clarity.
+
+Current Direction:
+
+- Architecture and governance design for model evolution.
+- Close collaboration with COVESA participants.
