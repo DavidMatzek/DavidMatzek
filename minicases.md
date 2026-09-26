@@ -5,48 +5,75 @@
 Each case leads with the result, followed by the situation and approach that
 produced it.
 
-## Featured Case: AI-Enabled Turnaround Under Budget Pressure
+## Featured Case: AI-Agent Automation for Vehicle Signal Specification (VSS) Data Model Governance
 
 Result: Daily operations dropped from an effective workload equivalent to
 about 20 hours/day to about 35 minutes/day for a 240+ consumer data model.
-A metadata self-service page requested since 2020 was delivered in 20
+Automated away governance work equivalent to ~3 full-time employees
+(~€350k/year fully-loaded cost) while serving 45+ regular contributors,
+sustaining a weekly release cadence with far less manual review overhead. A
+metadata self-service page requested since 2020 was delivered in 20
 workdays, contractor dependency dropped, and freed capacity was redirected
-to other budget-constrained projects.
+to other budget-constrained projects — all delivered in parallel with a
+strategic `.vspec` → GraphQL (S2DM) data-model migration for the same 180+
+consumer applications.
 
 Role Context:
 
-Data Steward and Data Model Owner (01/2025 - Present), with ownership of
-BMW's VSS-standardized data model and stewardship of historized
+Data Steward and Data Model Owner (01/2025 - Present), owner of BMW's VSS
+(Vehicle Signal Specification) data model backing the Vehicle Shadow stream,
+consumed by 180+ backend applications, with stewardship of historized
 petabyte-scale data.
 
 Situation:
 
-From January 2026 to present, a critical data-model operation had to continue
-after staffing changes and consultant budget cuts. The previous setup relied
-on one internal owner plus two external consultants.
+From January 2026, a critical data-model operation had to continue after
+staffing changes and consultant budget cuts (the previous setup relied on
+one internal owner plus two external consultants). At the same time,
+maintaining the VSS repo required manual PR review and labeling, board
+triage, release orchestration, and CI-failure fixing. Every contributor
+needed GitHub write access and had to author a pull request themselves —
+non-technical stakeholders couldn't contribute at all without engineering
+support.
 
 Team Goal:
 
-- Keep operations stable.
-- Reduce cost and overhead.
-- Improve quality for a data model serving 240+ consumers.
+- Keep operations stable while reducing cost and overhead.
+- Remove governance overhead consuming the equivalent of ~3 FTEs.
+- Remove the git/PR literacy barrier for non-technical contributors.
 - Build a support model that scales without contractor dependency.
+- Keep a sustained weekly release cadence, run alongside the ongoing
+  `.vspec` → GraphQL (S2DM) migration.
 
-What Was Implemented:
+What Was Implemented (from 01/2026):
 
-- Focus on the core earning process first.
-- Automate management and meta effort to the highest practical degree.
-- Refactor the underlying data model for reliability and maintainability.
-- Build a metadata self-service page with guided UI, transparency, and
-  clear next actions.
-- Use AI support with GitHub Copilot to accelerate execution.
+- Focus on the core earning process first; refactor the underlying data
+  model for reliability and maintainability.
+- 7 purpose-built AI agents (contribution, board/PM, release, CI-fixer,
+  PR-creator, explorer-data, explorer-dev) orchestrating ~15 reusable
+  skills — auto-triage CI failures, auto-rebase conflicting branches,
+  auto-classify legal (EU Data Act) requirements, auto-generate changelogs
+  and version bumps, auto-sort the Kanban release board.
+- A self-service web UI ("VSS Explorer") replacing the PR-only contribution
+  model: wizards let contributors without repo access submit signal
+  requests and classifications directly; a backend pipeline converts these
+  into structured GitHub issues and auto-generates compliant PRs, removing
+  the git/PR literacy barrier entirely.
+- Bulk content-quality automation: a linter plus LLM rewriter for spec
+  descriptions, benchmarked across 3 model tiers to pick the most
+  cost-efficient option at equal quality — a deliberate cost/performance
+  tradeoff, not just "use the biggest model."
 
 Reusable Method:
 
-- Protect value creation first.
-- Automate overhead second.
-- Make process bottlenecks visible.
-- Let users resolve standard issues through self-service UX.
+- Protect value creation first, automate overhead second.
+- Design agent architecture around discrete, reusable skills rather than one
+  monolithic agent.
+- Remove access barriers with self-service UX instead of only speeding up
+  the existing process; let users resolve standard issues themselves.
+- Treat model and tool selection as a cost/performance engineering decision.
+- Run automation delivery in parallel with ongoing operations and a
+  multi-year architecture migration, not as a separate side project.
 
 ---
 

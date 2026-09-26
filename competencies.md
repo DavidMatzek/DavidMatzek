@@ -7,6 +7,7 @@
 - Translating business requirements into architecture
 - Standardization & platform thinking
 - Stakeholder & partner alignment
+- AI-agent architecture design for process automation (governance, CI/CD, release orchestration, self-service pipelines)
 
 ## Domains & Context
 - Automotive & Software-Defined Systems

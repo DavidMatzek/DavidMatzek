@@ -1,0 +1,144 @@
+% Two-column designer CV (instance) — generic senior data & systems architect
+% Layout and macros live in cv/templates/cv-template.tex
+% Build: ./tools/build-cv.ps1 -Tex <this file> -Png
+\input{../templates/cv-template.tex}
+
+\begin{document}
+
+% =====================================================================
+% PAGE 1
+% =====================================================================
+\noindent
+\begin{minipage}[t]{\sidebarw}\vspace{0pt}
+  \photobox
+  \vspace{2.2mm}
+  \begin{center}{\color{accent}\fontsize{18}{20}\selectfont David Matzek}\\[1mm]
+  {\footnotesize\color{subgray}Munich, Germany}\end{center}
+
+  \sidesection{CONTACT}
+  {\footnotesize
+  \faEnvelope\hspace{1.6mm}\href{mailto:david.matzek@proton.me}{david.matzek@proton.me}\\[1mm]
+  \faLinkedin\hspace{1.6mm}\href{https://www.linkedin.com/in/david-matzek-04114a10a}{david-matzek}\\[1mm]
+  \faGithub\hspace{1.9mm}\href{https://github.com/DavidMatzek}{github.com/DavidMatzek}\par}
+
+  \sidesection{LANGUAGES}
+  \lang{German}{Native}{5}
+  \lang{English}{C1 -- Oxford, UK \& Chicago, USA}{4}
+  \lang{Spanish}{B1 -- Monterrey, Mexico}{2}
+
+  \sidesection{KEY COMPETENCIES}
+  \begin{cvitems}
+    \item AI Agent Architecture \& Automation
+    \item Data Governance \& Ownership
+    \item Data \& Interface Standardization
+    \item Model-Based Systems Engineering
+    \item Stakeholder Management
+    \item Strategic Decision Making
+  \end{cvitems}
+\end{minipage}%
+\hspace{\cvgap}%
+\begin{minipage}[t]{\mainw}\vspace{0pt}\RaggedRight
+  {\color{accent}\fontsize{18}{21}\selectfont SENIOR DATA \& SYSTEMS ARCHITECT}\\[1.2mm]
+  {\color{subgray}\fontsize{11}{13}\selectfont AI-agent automation for software-defined data platforms}
+  \par\vspace{0.6mm}{\color{accent}\rule{\linewidth}{1.1pt}}
+
+  \vspace{2mm}
+  {\fontsize{9.5}{12.5}\selectfont Senior data \& systems architect (8+ years) who designs multi-agent AI systems that automate governance, CI/CD and release work \textemdash\ removing manual overhead and hard access barriers while keeping long-term architecture clean and maintainable.\par}
+
+  \mainsection{PROFESSIONAL HIGHLIGHTS.}
+  \begin{cvitems}
+    \item Built a 7-agent AI system (\textasciitilde15 reusable skills) automating governance work equal to \textasciitilde3 FTEs (\textasciitilde€350k/year) for 45+ contributors across 180+ applications.
+    \item Cut daily operating effort from 20\,h to 35\,min for a 240-consumer data model after a staffing and budget cut.
+    \item Delivered a metadata self-service capability in 20 workdays, closing a request open for 6 years.
+    \item Owner of BMW's VSS vehicle data model; active COVESA contributor; 3 patent specifications.
+  \end{cvitems}
+
+  \mainsection{PROFESSIONAL POSITIONS.}
+  \cvevent{01/2025 -- today}{Data Steward \& Data Model Owner \textbar\ BMW Group}{Vehicle Data Assets \textbar\ EL-430}{%
+    \begin{cvitems}
+      \item Own BMW's VSS vehicle-data model (Vehicle Shadow), consumed by 180+ backend applications.
+      \item Built 7 AI agents + a self-service ``VSS Explorer'' UI automating PR triage, CI-fixing, EU Data Act classification and releases (\textasciitilde3 FTEs saved).
+      \item Cut daily effort 20\,h\,$\to$\,35\,min; driving the .vspec\,$\to$\,GraphQL (S2DM) model migration.
+    \end{cvitems}}
+  \cvevent{01/2023 -- 12/2024}{Lead Data Designer \textbar\ BMW Group}{Vehicle Data Infrastructure \textbar\ EE-340}{%
+    \begin{cvitems}
+      \item Established an early-phase data-design discipline across a 60+ ECU board net.
+      \item Set E/E (physical bus) requirements so needed data reaches in-car collectors by design.
+    \end{cvitems}}
+  \cvevent{11/2021 -- 12/2022}{E/E Data Architect \textbar\ BMW Group}{Data Strategy, Connected Vehicle \textbar\ EE-313}{%
+    \begin{cvitems}
+      \item Middleware-based (ADAPT) standardization reducing model fragmentation across platforms.
+      \item Variant management and test automation for cross-derivative data.
+    \end{cvitems}}
+  \cvevent{04/2017 -- 11/2021}{Specialist Function Development \textbar\ BMW Group}{Intelligent Personal Assistant \textbar\ DE-55}{%
+    \begin{cvitems}
+      \item Functional owner of intelligent comfort functions; 4 in-car functions released to series.
+      \item End-to-end system design over the V-model; generated 2 patent specifications.
+    \end{cvitems}}
+\end{minipage}
+
+\newpage
+
+% =====================================================================
+% PAGE 2
+% =====================================================================
+\noindent
+\begin{minipage}[t]{\sidebarw}\vspace{0pt}
+  \sidesection{SOFTWARE \& TOOLS}
+  \tool{VS Code \& GitHub}{Development, versioning, automation}{5}
+  \tool{GitHub Copilot \& MCP}{Agentic workflows, token optimization}{5}
+  \tool{Atlassian JIRA \& Confluence}{Process \& project lead}{4}
+  \tool{ALM Octane}{Functional owner, SW quality}{4}
+  \tool{PowerPoint}{Executive-level storytelling}{4}
+
+  \sidesection{QUALIFICATIONS}
+  \begin{cvitems}
+    \item Internal first aider
+    \item Internal driving licenses
+  \end{cvitems}
+
+  \sidesection{INTERESTS}
+  \begin{cvitems}
+    \item Digitalization \& entrepreneurship
+    \item Endurance sports
+    \item Personal development
+    \item Cooking \& coffee
+  \end{cvitems}
+\end{minipage}%
+\hspace{\cvgap}%
+\begin{minipage}[t]{\mainw}\vspace{0pt}\RaggedRight
+  \mainsection{SELECTED CASE \textemdash\ AI-AGENT AUTOMATION}
+  \cvevent{01/2026 -- today}{VSS Data-Model Governance, Automated}{BMW Group \textbar\ Vehicle Shadow}{%
+    \begin{cvitems}
+      \item 7 purpose-built agents (\textasciitilde15 skills) orchestrate PR triage, CI-fixing, auto-rebase, EU Data Act classification, changelog and version bumps, and release-board sorting.
+      \item ``VSS Explorer'' self-service UI lets non-technical contributors request signals without git/PR skills; a backend pipeline auto-generates compliant PRs.
+      \item Cost-aware LLM tooling: description rewriter benchmarked across 3 model tiers for best cost/quality.
+      \item Impact: \textasciitilde3 FTEs (\textasciitilde€350k/year) of governance work removed for 45+ users at a weekly release cadence.
+    \end{cvitems}}
+
+  \mainsection{PATENT SPECIFICATIONS.}
+  \patent{WO2020083962A1}{Apparatus and control unit for automating a state change of a window pane of a vehicle.}{https://worldwide.espacenet.com/patent/search?q=pn\%3DWO2020083962A1}
+  \patent{WO2020011655A1}{Method and system for detecting data in vehicles.}{https://worldwide.espacenet.com/patent/search?q=pn\%3DWO2020011655A1}
+  \patent{DE102018209967A1}{Method for automatically configuring a function in a vehicle.}{https://worldwide.espacenet.com/patent/search?q=pn\%3DDE102018209967A1}
+
+  \mainsection{EDUCATION}
+  \cvevent{10/2018 -- 10/2021}{M.Sc. Systems Engineering}{University of Applied Sciences Munich}{%
+    \begin{cvitems}
+      \item In parallel to professional position at BMW.
+      \item Thesis: influence of frontloading on software-development efficiency.
+    \end{cvitems}}
+  \cvevent{10/2013 -- 01/2017}{B.Eng. Mechatronics}{University of Applied Sciences Esslingen}{%
+    \begin{cvitems}
+      \item Focus on automotive electronics; BMW SpeedUp future-talent program.
+    \end{cvitems}}
+  \cvevent{08/2015 -- 01/2016}{Exchange Semester}{Tecnol\'ogico de Monterrey, Mexico}{%
+    \begin{cvitems}
+      \item Cross-cultural experience; thesis on external perception of autonomous vehicles.
+    \end{cvitems}}
+  \cvevent{09/2010 -- 07/2013}{Apprenticeship Mechatronics (IHK)}{BMW Group, Munich}{%
+    \begin{cvitems}
+      \item In-house project lead with €4M scope.
+    \end{cvitems}}
+\end{minipage}
+
+\end{document}

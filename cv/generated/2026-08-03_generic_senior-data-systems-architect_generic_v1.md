@@ -6,15 +6,19 @@ Germany | [david.matzek@proton.me](mailto:david.matzek@proton.me) | [linkedin.co
 ## Professional Summary
 
 Senior Data and Systems Architect with 8+ years designing scalable data
-architectures in complex, regulated environments. When budget cuts hit, I
-remove the slow, manual work that blocks teams — with fixes that keep
-working long after I've moved on. Strong in data standardization,
-governance, and AI-enabled automation, with full, data-backed transparency
-into where every process stands. Bridges business, architecture, and
-implementation to deliver measurable, long-term platform outcomes.
+architectures in complex, regulated environments. I design and ship
+multi-agent AI systems that automate governance, CI/CD, and release
+workflows — removing the slow, manual work that blocks teams, and the
+access barriers that keep non-technical stakeholders from contributing at
+all — with fixes that keep working long after I've moved on. Strong in
+data standardization, governance, and AI-enabled automation, with full,
+data-backed transparency into where every process stands. Bridges business,
+architecture, and implementation to deliver measurable, long-term platform
+outcomes.
 
 ## Proof in Numbers
 
+- Built a 7-agent AI system (~15 reusable skills) that automates governance work equivalent to ~3 FTEs (~€350k/year), serving 45+ contributors across 180+ consumer applications with a sustained weekly release cadence.
 - Cut daily operating effort from 20 hours to 35 minutes for a 240-consumer data-model landscape after a staffing and budget cut.
 - Delivered a metadata self-service capability in 20 workdays, closing a request that had been open for 6 years.
 - Kept a mission-critical, always-on data model stable through a consultant budget cut with zero service interruption.
@@ -22,6 +26,7 @@ implementation to deliver measurable, long-term platform outcomes.
 ## Core Competencies
 
 - Data Architecture (conceptual, logical, physical)
+- AI Agent Architecture & Multi-Agent Orchestration (GitHub Copilot, MCP, self-service automation pipelines)
 - Data Governance, Ownership & Lifecycle Management
 - Domain Modeling, Ontologies & Semantic Consistency
 - Data Standardization & Interface Design (information hiding, decoupling)
@@ -29,16 +34,16 @@ implementation to deliver measurable, long-term platform outcomes.
 - Model-Based Systems Engineering (MBSE)
 - Stakeholder Management & Business-to-Technology Translation
 - CI/CD, Automated Testing & Release Governance
-- AI-Enabled Delivery (GitHub Copilot, AI agents, MCP integration)
 - Process Transparency & Self-Service Enablement
 
 ## Professional Experience
 
-### Data Steward and Data Model Owner
+### Data Steward and Vehicle Data Model Owner
 
 **BMW Group** | *01/2025 – Present*
 
 - Stabilized always-on operations for 240 consumers after a staffing change and consultant budget cut, cutting daily effort from 20 hours to 35 minutes through AI-assisted refactoring and self-service design.
+- Designed and shipped 7 purpose-built AI agents (~15 reusable skills) and a self-service "VSS Explorer" web UI (from 01/2026) that automate PR triage, CI-failure fixing, legal (EU Data Act) classification, and release orchestration — removing governance work equivalent to ~3 FTEs (~€350k/year) and the git/PR literacy barrier for 45+ non-technical contributors across 180+ consumer applications.
 - Delivered a metadata self-service page in 20 workdays, closing a request open since 2020 and reducing contractor dependency.
 - Migrating the model from taxonomic to graph-based structure with GraphQL SDL contracts to support future AI-ready use cases without disrupting live operations.
 - Governs the model through semantic versioning and CI/CD-backed quality checks, sustaining COVESA-aligned standardization across 240+ consumers without slowing weekly releases.

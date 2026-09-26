@@ -1,0 +1,63 @@
+name: Build CV & deploy landing page
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'site/**'
+      - 'cv/**'
+      - '.github/workflows/pages.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install Tectonic
+        run: |
+          set -euo pipefail
+          api="https://api.github.com/repos/tectonic-typesetting/tectonic/releases/latest"
+          url=$(curl -sSL "$api" | grep browser_download_url | grep 'x86_64-unknown-linux-musl.tar.gz' | head -n1 | cut -d '"' -f4)
+          echo "Downloading $url"
+          curl -sSL "$url" -o tectonic.tar.gz
+          tar xzf tectonic.tar.gz
+          sudo mv tectonic /usr/local/bin/
+          tectonic --version
+
+      - name: Build 2-page CV PDF
+        run: |
+          set -euo pipefail
+          tex=cv/generated/2026-09-26_generic_senior-data-systems-architect_v1.tex
+          tectonic "$tex" --outdir cv/generated
+          mkdir -p site/assets
+          cp "${tex%.tex}.pdf" site/assets/David-Matzek-CV.pdf
+
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

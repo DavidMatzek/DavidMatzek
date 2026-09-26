@@ -1,0 +1,20 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Local, downloaded tool binaries (not committed)
+tools/bin/
+tools/smoke.*
+
+# LaTeX build artifacts
+*.aux
+*.log
+*.out
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+*.xdv
+
+# Generated preview screenshots
+cv/generated/*_p*.png

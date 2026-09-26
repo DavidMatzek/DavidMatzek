@@ -3,6 +3,7 @@
 This file links achievements to proof points that can be selected during CV tailoring.
 
 ## Case Evidence
+- 7-agent AI automation layer (~15 reusable skills) plus self-service "VSS Explorer" UI for BMW's VSS data model, replacing manual PR/board/release governance and removing work equivalent to ~3 FTEs (~€350k/year) for 45+ contributors across 180+ consumer applications.
 - First standardized service interface in BMW E/E architecture for automated window control.
 - Middleware architecture for cross-derivative vehicle data standardization.
 - End-to-end ownership and release delivery of intelligent in-car functions.

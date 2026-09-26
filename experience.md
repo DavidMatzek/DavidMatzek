@@ -19,6 +19,7 @@ and petabyte-scale historized data, serving 240 consumers with weekly
 release management and EU Data Act delivery coordination.
 
 - Stabilized always-on operations for 240 consumers after a staffing change and consultant budget cut, cutting daily effort from 20 hours to 35 minutes through AI-assisted refactoring and self-service design.
+- Designed and shipped 7 purpose-built AI agents (~15 reusable skills) and a self-service "VSS Explorer" web UI (from 01/2026) that automate PR triage, CI-failure fixing, legal (EU Data Act) classification, and release orchestration — removing governance work equivalent to ~3 FTEs (~€350k/year) and the git/PR literacy barrier for 45+ non-technical contributors across 180+ consumer applications.
 - Delivered a metadata self-service page in 20 workdays, closing a request open since 2020 and reducing contractor dependency.
 - Migrating the model from taxonomic to graph-based structure with GraphQL SDL contracts to support future AI-ready use cases without disrupting live operations.
 - Governs the model through semantic versioning and CI/CD-backed quality checks, sustaining COVESA-aligned standardization across 240+ consumers without slowing weekly releases.

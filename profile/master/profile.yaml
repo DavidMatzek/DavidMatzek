@@ -24,10 +24,12 @@ experience:
       - Operational ownership of BMW's VSS-standardized data model and historized data
       - Model evolution toward graph-based structure and GraphQL SDL
       - Governance via semantic versioning and CI/CD-backed quality checks
+      - Multi-agent AI automation of governance workflows (PR triage, CI-fixing, release orchestration, self-service contribution)
     outcomes:
       - Stabilized 240-consumer operations after a staffing and budget cut, cutting daily effort from 20 hours to 35 minutes
       - Delivered a metadata self-service page in 20 workdays
       - Sustained COVESA-aligned standardization through automated governance
+      - Built 7 purpose-built AI agents (~15 reusable skills) and a self-service "VSS Explorer" UI (from 01/2026), automating governance work equivalent to ~3 FTEs (~€350k/year) for 45+ contributors across 180+ consumer applications while sustaining a weekly release cadence
 
   - company: BMW Group
     role: Lead Data Designer
@@ -90,6 +92,7 @@ skills:
     - Systems engineering across the V-model
     - Trunk-based development and semantic versioning
     - CI/CD and automated testing
+    - Multi-agent AI architecture and orchestration for process automation
   tooling:
     - Git and GitHub
     - VS Code

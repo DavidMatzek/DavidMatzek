@@ -27,6 +27,7 @@ profile against a role.
 - Trunk-based development & semantic versioning
 - Data model operations with weekly release management
 - Process optimization through self-service and transparency design
+- Multi-agent AI architecture — designing, orchestrating, and shipping purpose-built agents with reusable skills to automate operational workflows end to end
 
 ### Leadership & Collaboration
 
@@ -41,6 +42,7 @@ profile against a role.
 - Data Steward for petabyte-scale historized data sets
 - Reliability and evolution responsibility for a live model used by 240 consumers
 - Implementation coordination for EU Data Act requirements across consuming systems
+- Design and operation of a 7-agent AI automation layer (~15 reusable skills) plus a self-service "VSS Explorer" UI, automating governance work equivalent to ~3 FTEs for 45+ contributors across 180+ consumer applications
 
 ---
 
@@ -53,7 +55,7 @@ profile against a role.
 | Modeling | MBSE tooling, ontology-based modeling |
 | Project & Process | Atlassian JIRA & Confluence, ALM Octane |
 | Communication | Microsoft PowerPoint (executive-level storytelling) |
-| Automation & AI | GitHub Copilot, AI agents, reusable AI skills, MCP server integration, prompt and token optimization, AI-enabled software development workflows |
+| Automation & AI | GitHub Copilot, multi-agent architecture & orchestration, reusable AI skills, MCP server integration, self-service automation pipelines, prompt and token optimization, LLM cost/performance benchmarking across model tiers |
 
 ---
 
