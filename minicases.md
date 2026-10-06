@@ -77,6 +77,64 @@ Reusable Method:
 
 ---
 
+## Venture (in progress): Tender-to-Invoice Automation for the Mittelstand
+
+Status: In progress (from 2026). Landing-page showcase; kept out of the formal CV.
+
+Result (target): A product that removes the manual tender-handling burden for
+mid-sized trades — screening German public tenders (Ausschreibungen),
+drafting offers (Angebote), and issuing invoices (Rechnungen) from one guided
+workflow.
+
+Situation:
+
+Electricians, facility management, security, and construction firms spend
+scarce back-office time manually screening tender portals, re-keying offer
+documents, and preparing invoices — repetitive, rule-based, error-prone work.
+
+What Is Being Built:
+
+- Automated screening and relevance-ranking of incoming Ausschreibungen.
+- Assisted Angebotserstellung (offer generation) from reusable templates and
+  past bids.
+- One-click Rechnung setup feeding into existing accounting.
+
+Reusable Method:
+
+- Apply agentic automation to a concrete, high-friction business workflow.
+- Remove the literacy barrier with guided UX, as in prior self-service work.
+
+---
+
+## Case: Decision & Check Automation (Vehicle Functions to Production Lines)
+
+Result: Three patent specifications for automating vehicle decisions and
+configurations — rule- and event-driven automation that decides and acts
+without manual intervention — backed by MBSE-based automated validation and a
+production-line engineering foundation.
+
+Situation:
+
+Customer-facing vehicle functions required decisions and state changes to be
+automated safely, and their behavior to be verified automatically rather than
+by manual checking.
+
+What Was Implemented:
+
+- Event- and rule-driven automation of vehicle functions and state changes
+  (window control, function configuration), captured in patent specifications.
+- MBSE models as the single source of truth, enabling generated, automated
+  checks across design, implementation, and testing.
+- Engineering foundation from a production-line apprenticeship, informing
+  where automated decisions and quality checks add the most value.
+
+Reusable Method:
+
+- Encode decisions as explicit, testable rules and events.
+- Automate the checks, not just the actions, through model-based generation.
+
+---
+
 ## Case: First Standardized Service Interface in BMW E/E Architecture
 
 Result: First standardized interface for a low-level vehicle function,

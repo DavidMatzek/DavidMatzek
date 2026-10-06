@@ -106,6 +106,7 @@ a:hover { text-decoration: underline; }
 .cards { display: grid; gap: 18px; }
 .proof-cards { grid-template-columns: repeat(4, 1fr); }
 .services-cards { grid-template-columns: repeat(2, 1fr); }
+.gain-cards { grid-template-columns: repeat(4, 1fr); }
 .card { background: #fff; border: 1px solid var(--line); border-radius: var(--radius); padding: 22px; box-shadow: var(--shadow); }
 .stat .stat-num { font-size: 1.5rem; font-weight: 800; color: var(--accent-dark); margin-bottom: 6px; letter-spacing: -.01em; }
 .stat p { margin: 0; color: var(--muted); font-size: .98rem; }
@@ -114,6 +115,11 @@ a:hover { text-decoration: underline; }
 .mini { margin: 0; padding-left: 18px; color: var(--ink); font-size: .95rem; }
 .mini li { margin-bottom: 4px; }
 .mini li::marker { color: var(--accent); }
+.gain h3 { margin: 0 0 8px; font-size: 1.05rem; }
+.gain p { margin: 0 0 12px; color: var(--muted); font-size: .96rem; }
+.gain .tag { display: inline-block; font-size: 12.5px; color: var(--accent-dark); background: var(--accent-soft); border-radius: 8px; padding: 4px 9px; }
+.gain em { font-style: italic; color: var(--ink); }
+.badge { display: inline-block; font-size: 11px; font-weight: 700; color: #fff; background: var(--accent); border-radius: 999px; padding: 2px 8px; margin-left: 6px; vertical-align: middle; }
 
 /* ---------- Case ---------- */
 .case-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 22px; margin-top: 8px; }
@@ -156,12 +162,12 @@ a:hover { text-decoration: underline; }
 /* ---------- Responsive ---------- */
 @media (max-width: 880px) {
   .nav { display: none; }
-  .proof-cards { grid-template-columns: 1fr 1fr; }
+  .proof-cards, .gain-cards { grid-template-columns: 1fr 1fr; }
   .services-cards, .case-grid, .skill-groups { grid-template-columns: 1fr; }
   .facts { grid-template-columns: 1fr 1fr; }
   .check-list { grid-template-columns: 1fr; }
 }
 @media (max-width: 520px) {
-  .proof-cards, .facts { grid-template-columns: 1fr; }
+  .proof-cards, .gain-cards, .facts { grid-template-columns: 1fr; }
   .hero-inner { padding: 48px 20px 40px; }
 }

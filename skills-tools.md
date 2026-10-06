@@ -8,6 +8,14 @@ profile against a role.
 
 ---
 
+## What You Gain
+
+- **Process digitalization & design** — manual, opaque processes become streamlined, transparent digital workflows.
+- **End-to-end automation, managed** — multi-agent AI systems that automate the work and the program around it.
+- **Decision & check automation** — from governance and CI/CD gates to production-line quality checks.
+
+---
+
 ## Core Skills
 
 ### Architecture & Data
@@ -26,7 +34,8 @@ profile against a role.
 - CI/CD, automated testing & code generation
 - Trunk-based development & semantic versioning
 - Data model operations with weekly release management
-- Process optimization through self-service and transparency design
+- Process digitalization & workflow design (self-service, transparency)
+- Decision & check automation — from governance and CI/CD gates to production-line quality checks
 - Multi-agent AI architecture — designing, orchestrating, and shipping purpose-built agents with reusable skills to automate operational workflows end to end
 
 ### Leadership & Collaboration

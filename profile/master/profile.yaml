@@ -15,6 +15,30 @@ positioning:
     - Data standardization and semantic consistency in heterogeneous landscapes
     - Architecture governance with long-term maintainability focus
 
+value_propositions:
+  - title: Process digitalization & design
+    outcome: Manual, opaque processes become streamlined, transparent digital workflows.
+    proof: Created a BMW group-wide E/E data process; delivered a 6-year-open self-service capability in 20 workdays.
+  - title: End-to-end automation, managed
+    outcome: Multi-agent AI systems that automate the work and the program around it.
+    proof: 7-agent VSS system (~15 reusable skills) removing work equal to ~3 FTEs; sustained weekly releases.
+  - title: Decision & check automation
+    outcome: From governance and CI/CD gates to production-line quality checks.
+    proof: 3 patents on automating vehicle functions and state changes; MBSE; production-line background.
+  - title: Business-process automation for SMEs
+    outcome: Automating German tender screening (Ausschreibungen), offer creation, and invoicing for mid-sized trades.
+    proof: Venture in progress.
+    visibility: landing-only   # keep out of the formal CV
+
+ventures:
+  - name: SME tender-to-invoice automation
+    status: In progress (from 2026)
+    visibility: landing-only
+    summary: >-
+      A product that automates German tender screening (Ausschreibungen),
+      offer creation (Angebote), and invoicing (Rechnungen) for mid-sized
+      trades — electricians, facility management, security, and construction firms.
+
 experience:
   - company: BMW Group
     role: Data Steward / Data Model Owner
