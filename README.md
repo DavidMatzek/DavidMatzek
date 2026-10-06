@@ -5,8 +5,9 @@ regulated environments.
 
 ## Value Proposition
 
-When budget cuts hit, I remove the slow, manual work that blocks teams —
-with fixes that keep working long after I've moved on.
+When budget cuts hit, I replace slow, manual work — and the consultant spend
+behind it — with automation that cuts cost, speeds up delivery, and keeps
+working long after I've moved on.
 
 ## Proof in Numbers
 

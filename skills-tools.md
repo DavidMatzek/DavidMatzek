@@ -10,9 +10,9 @@ profile against a role.
 
 ## What You Gain
 
-- **Process digitalization & design** — manual, opaque processes become streamlined, transparent digital workflows.
-- **End-to-end automation, managed** — multi-agent AI systems that automate the work and the program around it.
-- **Decision & check automation** — from governance and CI/CD gates to production-line quality checks.
+- **Lower operating cost** — automation removes recurring manual work and the consultant spend attached to it.
+- **Faster delivery** — multi-agent AI systems hold output steady with fewer people.
+- **Decision & check automation** — encode decisions and quality checks as automated rules, from governance and CI/CD gates to production lines.
 
 ---
 

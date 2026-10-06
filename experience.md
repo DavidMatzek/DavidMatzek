@@ -102,4 +102,4 @@ foundation in operational excellence, quality, and safety standards.
 
 - 8+ years in data and systems architecture, preceded by 5+ years in engineering roles, all within complex, safety-critical, large-scale environments.
 - Proven ability to bridge business, architecture, and implementation.
-- Track record of process efficiency through overhead automation, transparency, and self-service enablement.
+- Track record of cutting operating cost and consultant dependency through overhead automation, transparency, and self-service enablement.

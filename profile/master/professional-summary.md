@@ -3,9 +3,10 @@
 Use this as the canonical source when drafting role-specific CV summaries.
 
 ## Core Profile
-Senior Data and Systems Architect with 8+ years of experience designing scalable data architectures in complex, regulated environments. Strong in data modeling, standardization, and governance. Bridges business, architecture, and implementation to deliver robust long-term platform outcomes.
+Senior Data and Systems Architect with 8+ years of experience designing scalable data architectures in complex, regulated environments. Strong in data modeling, standardization, and governance. Bridges business, architecture, and implementation — cutting operating cost and consultant dependency while accelerating delivery and protecting long-term platform outcomes.
 
 ## Value Proposition Pillars
+- Cuts operating cost and consultant dependency by automating recurring manual governance, CI/CD, and release work.
 - Standardizes data and interfaces across heterogeneous, large-scale system landscapes.
 - Designs architecture guardrails that keep delivery speed high without losing long-term maintainability.
 - Translates strategic business intent into actionable technical abstractions and decision criteria.

@@ -9,7 +9,9 @@ person:
 positioning:
   summary: >-
     Data and systems architect with 8+ years in complex and regulated environments,
-    focused on domain data modeling, governance, and scalable platform architectures.
+    focused on domain data modeling, governance, and scalable platform architectures —
+    cutting operating cost and consultant dependency while accelerating delivery through
+    AI automation.
   strengths:
     - Business to technology translation across product, engineering, and IT
     - Data standardization and semantic consistency in heterogeneous landscapes
@@ -17,10 +19,10 @@ positioning:
 
 value_propositions:
   - title: Process digitalization & design
-    outcome: Manual, opaque processes become streamlined, transparent digital workflows.
+    outcome: Manual, opaque processes become streamlined, transparent digital workflows at lower running cost.
     proof: Created a BMW group-wide E/E data process; delivered a 6-year-open self-service capability in 20 workdays.
   - title: End-to-end automation, managed
-    outcome: Multi-agent AI systems that automate the work and the program around it.
+    outcome: Multi-agent AI systems that replace consultant and headcount cost while delivery accelerates.
     proof: 7-agent VSS system (~15 reusable skills) removing work equal to ~3 FTEs; sustained weekly releases.
   - title: Decision & check automation
     outcome: From governance and CI/CD gates to production-line quality checks.

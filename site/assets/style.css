@@ -133,6 +133,14 @@ a:hover { text-decoration: underline; }
 .tags { display: flex; flex-wrap: wrap; gap: 8px; }
 .tags span { background: var(--accent-soft); color: var(--accent-dark); border-radius: 8px; padding: 6px 11px; font-size: 14px; font-weight: 500; }
 
+/* ---------- Key terms + notes ---------- */
+.glossary { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0 28px; margin: 0; }
+.glossary > div { display: grid; grid-template-columns: 116px 1fr; gap: 12px; align-items: baseline; padding: 11px 0; border-top: 1px solid var(--line); }
+.glossary dt { font-weight: 700; color: var(--ink); }
+.glossary dd { margin: 0; color: var(--muted); font-size: .95rem; }
+.note { margin: 22px 0 0; background: var(--accent-soft); border: 1px solid var(--line); border-left: 3px solid var(--accent); border-radius: 10px; padding: 14px 16px; color: var(--ink); font-size: .95rem; }
+.note strong { color: var(--accent-dark); }
+
 /* ---------- Timeline ---------- */
 .timeline { list-style: none; margin: 0 0 34px; padding: 0; position: relative; }
 .timeline::before { content: ""; position: absolute; left: 7px; top: 6px; bottom: 6px; width: 2px; background: var(--line); }
@@ -163,7 +171,7 @@ a:hover { text-decoration: underline; }
 @media (max-width: 880px) {
   .nav { display: none; }
   .proof-cards, .gain-cards { grid-template-columns: 1fr 1fr; }
-  .services-cards, .case-grid, .skill-groups { grid-template-columns: 1fr; }
+  .services-cards, .case-grid, .skill-groups, .glossary { grid-template-columns: 1fr; }
   .facts { grid-template-columns: 1fr 1fr; }
   .check-list { grid-template-columns: 1fr; }
 }
