@@ -184,27 +184,45 @@ What Was Implemented:
 
 ---
 
-## Case: Intelligent Functions from Concept to Series Release
+## Case: Function Owner — Customer-Facing In-Vehicle Function, Idea to Go-Live
 
-Result: Two customer-facing functions reached series release in 2019,
+Result: Owned a customer-facing in-vehicle function end to end — from idea to
+series go-live across the full development lifecycle — as a ~€3M program over 3
+years. Delivered customer-facing functions to series release in 2019,
 generating two patent specifications and increased portfolio value through
 sustained usage and conversion impact.
+
+Role Context:
+
+Specialist / Function Development (04/2017 - 11/2021): functional owner for
+intelligent customer-facing in-car functions, accountable across the whole
+V-model from concept through validation and series production.
 
 Situation:
 
 An intelligent-function initiative faced high customer expectations, complex
-stakeholder requirements, late start, and tight budget.
+stakeholder requirements, a late start, and a tight budget — with full
+lifecycle accountability resting on the function owner.
 
 Team Goal:
 
-- Deliver committed customer value under tight constraints.
+- Deliver committed customer value under tight constraints, on a multi-year,
+  multi-million-euro program.
 - Keep alignment across safety, privacy, UX, validation, and production.
 
 What Was Implemented:
 
+- End-to-end function ownership: requirements, architecture, implementation
+  coordination, validation, and series release over the full lifecycle.
 - Delivery focus on customer value without political drift.
-- Tight cross-functional technical coordination.
+- Tight cross-functional technical coordination across the V-model.
 - MBSE to align understanding across design, implementation, and testing.
+
+Business Impact:
+
+- Steered a ~€3M budget over 3 years to a successful series go-live.
+- Turned a late-start, tight-budget initiative into shipped customer value and
+  two patents.
 
 ---
 

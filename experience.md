@@ -63,6 +63,7 @@ domain data across heterogeneous, high-variant vehicle systems.
 End-to-end technical ownership of customer-facing intelligent in-car
 functions in a safety-critical, regulated setting.
 
+- Owned a customer-facing in-car function from idea to go-live over the full development lifecycle — a ~€3M program across 3 years — accountable end to end across the V-model.
 - Delivered multiple customer-facing functions from concept to series release, generating two patent specifications.
 - Introduced a standardized process for domain data usage in development, reducing rework across teams.
 - Mentored Bachelor and Master thesis candidates whose results were adopted in series development.
