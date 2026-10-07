@@ -6,6 +6,11 @@ on:
     paths:
       - 'site/**'
       - 'cv/**'
+      - 'content/**'
+      - 'templates/**'
+      - 'tools/build.py'
+      - 'tools/check_pdf_pages.py'
+      - 'requirements.txt'
       - '.github/workflows/pages.yml'
   workflow_dispatch:
 
@@ -55,14 +60,28 @@ jobs:
           restore-keys: |
             tectonic-bundle-${{ runner.os }}-
 
-      - name: Build 2-page CV PDF
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install Python dependencies
+        run: pip install -r requirements.txt
+
+      - name: Render site and CV sources (EN + DE)
+        run: python tools/build.py
+
+      - name: Build 2-page CV PDFs
         run: |
           set -euo pipefail
           tectonic --version
-          tex=cv/generated/2026-09-26_generic_senior-data-systems-architect_v1.tex
-          tectonic "$tex" --outdir cv/generated
           mkdir -p site/assets
-          cp "${tex%.tex}.pdf" site/assets/David-Matzek-CV.pdf
+          tectonic cv/generated/cv-en.tex --outdir cv/generated
+          tectonic cv/generated/cv-de.tex --outdir cv/generated
+          cp cv/generated/cv-en.pdf site/assets/David-Matzek-CV.pdf
+          cp cv/generated/cv-de.pdf site/assets/David-Matzek-CV-DE.pdf
+          python tools/check_pdf_pages.py site/assets/David-Matzek-CV.pdf site/assets/David-Matzek-CV-DE.pdf
 
       - name: Configure Pages
         uses: actions/configure-pages@v5

@@ -1,0 +1,64 @@
+# Language-neutral facts shared by the landing page and the CV.
+# Translatable text lives in content/<lang>.yaml, keyed by the ids used here.
+
+person_name: David Matzek
+
+site:
+  base_url: https://davidmatzek.github.io/DavidMatzek/
+  email: david.matzek@proton.me
+  linkedin_url: https://www.linkedin.com/in/david-matzek-04114a10a
+  linkedin_label: david-matzek
+  github_url: https://github.com/DavidMatzek
+  github_label: github.com/DavidMatzek
+  site_label: davidmatzek.github.io
+  cv_pdf:
+    en: David-Matzek-CV.pdf
+    de: David-Matzek-CV-DE.pdf
+
+# Hero fact tiles: link target per tile (null = plain tile). Text per language: hero.facts.
+hero_fact_links: [null, "#case", "#case", null]
+
+roles:
+  - {id: steward,   start: "01/2025", end: null}
+  - {id: lead,      start: "01/2023", end: "12/2024"}
+  - {id: architect, start: "11/2021", end: "12/2022"}
+  - {id: function,  start: "04/2017", end: "11/2021"}
+
+education:
+  - {id: msc,        start: "10/2018", end: "10/2021"}
+  - {id: beng,       start: "10/2013", end: "01/2017"}
+  - {id: exchange,   start: "08/2015", end: "01/2016"}
+  - {id: apprentice, start: "09/2010", end: "07/2013"}
+
+# CV selected case (page 2).
+case: {start: "01/2026", end: null}
+
+patents:
+  - id: WO2020083962A1
+    inventor: sole
+    published: "04/2020"
+    filed: "DE, CN, US"
+    granted: US11891849B2
+  - id: WO2020011655A1
+    inventor: sole
+    published: "01/2020"
+    filed: "DE, CN, US"
+    granted: null
+  - id: DE102018209967A1
+    inventor: co
+    published: "12/2019"
+    filed: "DE"
+    granted: null
+
+# CV sidebar: language proficiency (dots out of 5).
+languages:
+  - {id: german,  dots: 5}
+  - {id: english, dots: 4}
+  - {id: spanish, dots: 2}
+
+# CV sidebar: tool lists are identical in every language; group names are translated.
+cv_tools:
+  - {id: ai,            tools: "GitHub Copilot, MCP, agentic workflows"}
+  - {id: engineering,   tools: "Python, GraphQL, YAML, Git & GitHub, VS Code, CI/CD, Cloud"}
+  - {id: process,       tools: "Jira, Confluence, ALM Octane"}
+  - {id: collaboration, tools: "MS Office (Word, Excel, PowerPoint)"}

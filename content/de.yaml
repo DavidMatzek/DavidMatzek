@@ -1,0 +1,269 @@
+# Deutsche Inhalte. Struktur muss exakt der en.yaml entsprechen (tools/build.py prüft das).
+# Inline-Markup: **fett**, [Text](url). Anführungszeichen „so“; \u00A0 = geschütztes Leerzeichen, \u200A = Haarspatium.
+
+common:
+  employer: "BMW Group"
+  roles:
+    steward:   {title: "Data Steward & Data Model Owner"}
+    lead:      {title: "Lead Data Designer"}
+    architect: {title: "E/E Data Architect"}
+    function:  {title: "Specialist Function Development"}
+  education:
+    msc:        {title: "M.Sc. Systems Engineering", org: "Hochschule München"}
+    beng:       {title: "B.Eng. Mechatronik", org: "Hochschule Esslingen"}
+    exchange:   {title: "Austauschsemester", org: "Tecnológico de Monterrey, Mexiko"}
+    apprentice: {title: "Ausbildung Mechatronik (IHK)", org: "BMW Group, München"}
+  patents:
+    WO2020083962A1: "Vorrichtung und Steuereinheit zur Automatisierung einer Zustandsänderung einer Fensterscheibe eines Fahrzeugs"
+    WO2020011655A1: "Verfahren und System zum Erfassen von Daten in Fahrzeugen"
+    DE102018209967A1: "Verfahren zum automatischen Konfigurieren einer Funktion in einem Fahrzeug"
+  today: "heute"
+
+ui:
+  html_lang: "de"
+  locale: "de_DE"
+  skip: "Zum Inhalt springen"
+  nav_label: "Hauptnavigation"
+  lang_label: "Sprache"
+  lang_names: {en: "English", de: "Deutsch"}
+  header_cv: "CV herunterladen"
+  hero_cv: "↓\u00A0CV (2 Seiten, PDF) herunterladen"
+  footer_cv: "CV (2 Seiten) herunterladen"
+  email: "E-Mail"
+  legal: "Impressum & Datenschutz"
+
+meta:
+  title: "David Matzek — Senior Data & Systems Architect"
+  description: "Senior Data & Systems Architect, München. Seit 2010 bei BMW: 9 Jahre im Engineering, 5 in der Datenarchitektur. Verantwortlich für BMWs Fahrzeugdatenmodell VSS; hat ein Multi-Agenten-KI-System aufgebaut, das zwei Berater und eine interne Stelle ersetzt hat."
+  og_description: "KI-Agenten-Automatisierung für Data-Model-Governance. Verantwortlich für BMWs Fahrzeugdatenmodell VSS, eng angebunden an COVESA."
+
+nav:
+  overview: "Überblick"
+  proof: "Zahlen"
+  case: "Fallstudie"
+  experience: "Erfahrung"
+  education: "Ausbildung"
+  expertise: "Expertise"
+  skills: "Skills"
+  terms: "Begriffe"
+  contact: "Kontakt"
+
+hero:
+  eyebrow: "München (hybrid) · offen für unbefristete Senior-Rollen"
+  h1: "Senior Data & Systems Architect"
+  h1_accent: "KI-Automatisierung für Data-Model-Governance"
+  lede: "Seit 2010 bei BMW: 9 Jahre im Engineering, 5 davon in der Datenarchitektur. Ich verantworte BMWs [VSS](#terms)-Fahrzeugdatenmodell (180+ nutzende Anwendungen) und habe ein KI-System aus 7 Agenten aufgebaut, das zwei Berater und eine interne Stelle (~2,5 FTE) für Governance-, CI/CD- und Release-Arbeit ersetzt hat — bei unverändert wöchentlichen Releases."
+  facts:
+    - {strong: "9 Jahre Engineering", span: "bei BMW (seit 2010) · 5 in der Datenarchitektur"}
+    - {strong: "~350.000 €/Jahr", span: "Governance-Kosten vermieden →"}
+    - {strong: "180+", span: "angebundene Anwendungen →"}
+    - {strong: "BMW", span: "Owner des VSS-Datenmodells"}
+
+snapshot:
+  title: "Profil im Überblick"
+  lead: "Hier helfe ich: geschäftskritische Datenbetriebe auch bei Budget- und Personalkürzungen am Laufen halten, ohne die langfristige Architekturqualität zu verlieren. **Als Nächstes:** KI beschleunigt sich, und ich möchte KI-getriebene Datensysteme in wachsenden Märkten aufbauen."
+  items:
+    - "Wiederkehrende manuelle Arbeit — und die Beraterkosten dahinter — durch KI-Automatisierung ersetzen."
+    - "Der Führung datenbasierte Transparenz über Status, Kosten und Risiken geben."
+    - "Plattformen durch gesteuerte Weiterentwicklung und Release-Disziplin zukunftsfähig halten."
+
+proof:
+  title: "Zahlen im Überblick"
+  cards:
+    - {num: "~350.000 €/Jahr", text: "vermiedene Governance-Kosten (~2,5 FTE: zwei Berater und eine interne Stelle ersetzt) durch ein KI-System aus 7 Agenten."}
+    - {num: "~24\u200Ah → 35\u200Amin", text: "geschätzter täglicher Aufwand für ein Datenmodell mit 240 Nutzern (3 Personen × 8\u00A0h) — gehalten nach der Budget- und Beraterkürzung im Januar 2026."}
+    - {num: "20 Arbeitstage", text: "bis zur Lieferung einer Self-Service-Funktion, die 6 Jahre offen war, und Budget für andere Projekte freigesetzt."}
+    - {num: "180+ Anwendungen", text: "bei konstantem wöchentlichem Release-Rhythmus und deutlich weniger manuellem Aufwand."}
+
+case:
+  pill: "Referenzprojekt"
+  title: "KI-Agenten-Automatisierung für die Governance des VSS-Datenmodells"
+  lead: "BMWs [VSS](https://github.com/COVESA/vehicle_signal_specification)-Repository (Vehicle Signal Specification) ist das Datenmodell hinter dem Vehicle-Shadow-Stream und wird von 180+ Backend-Anwendungen genutzt — von kundennahen Apps bis zu Händler- und Backend-Systemen. Manuelles Pull-Request-Review (PR), Board-Triage, Release-Orchestrierung und CI-Fehlerbehebung verbrauchten das Äquivalent von ~2,5 Vollzeitstellen — zwei externe Berater und eine interne Stelle — bis das Budget für dieses Setup im Januar 2026 gekürzt wurde. Nicht-technische Stakeholder konnten ohne Engineering-Unterstützung nichts beitragen."
+  built_title: "Was ich gebaut habe"
+  built:
+    - "**7 spezialisierte KI-Agenten**, die ~15 wiederverwendbare Skills orchestrieren: CI-Fehler automatisch triagieren, Konflikte automatisch rebasen, EU-Data-Act-Anforderungen klassifizieren, Changelogs und Versionssprünge erzeugen, das Release-Board sortieren."
+    - "**Self-Service-UI „VSS Explorer“** — Beitragende ohne Repo-Zugriff reichen Signalanfragen direkt ein; eine Backend-Pipeline macht daraus strukturierte Issues und erzeugt automatisch konforme PRs, sodass die Git/PR-Hürde entfällt."
+    - "**Kostenbewusstes LLM-Tooling** — ein Linter + Rewriter, über 3 Modellstufen verglichen, um bei gleicher Qualität die kosteneffizienteste Option zu wählen."
+  impact_title: "Wirkung"
+  impact:
+    - "**~350.000 €/Jahr (~2,5 FTE)** an Governance-Kosten vermieden, indem zwei Berater und eine interne Stelle ersetzt wurden; die Abhängigkeit von externen Beratern ist beendet, bei 45+ regelmäßig Beitragenden."
+    - "Den **wöchentlichen Release-Rhythmus** durch die Budgetkürzung gehalten und freigewordenes Budget in andere Projekte mit knappen Mitteln umgelenkt."
+    - "Parallel geliefert zur strategischen **.vspec → GraphQL (S2DM)**-Datenmodell-Migration für dieselben 180+ Anwendungen."
+    - "Enge Zusammenarbeit mit **COVESA**: BMWs COVESA-Verbindungsabteilung (aus Compliance-Gründen eingerichtet) arbeitet unter meiner Anleitung, und ich gebe Umsetzungs-Feedback an die VSS-Community."
+  skills: "Agentic-Workflow-Design · CI/CD-Engineering · Neugestaltung von Self-Service-Prozessen · kostenbewusste LLM-Entscheidungen · mehrjährige Migration im laufenden Betrieb."
+  note: "**Warum das nicht auf meinem öffentlichen GitHub liegt:** Fast die gesamte Arbeit läuft in BMWs privatem GitHub Enterprise, daher können Code und Commit-Historie nicht öffentlich geteilt werden. Auf Anfrage führe ich gern ausführlich durch Architektur, Agenten und Ergebnisse."
+
+experience:
+  title: "Berufserfahrung"
+  roles:
+    steward: "Verantwortlich für BMWs VSS-Fahrzeugdatenmodell (Vehicle Shadow), 180+ Consumer-Apps. 7 KI-Agenten und eine Self-Service-UI „VSS Explorer“ gebaut, die ~350.000 €/Jahr an Governance-Kosten vermieden und die Beraterabhängigkeit beendet haben; wöchentliche Releases trotz Budgetkürzung gehalten und parallel die Migration .vspec → GraphQL (S2DM) vorangetrieben."
+    lead: "Eine Disziplin für frühe Datengestaltung über ein Bordnetz mit 60+ Steuergeräten (ECUs) etabliert; E/E-Anforderungen (physischer Bus) gesetzt, damit benötigte Daten die Datensammler im Fahrzeug von Anfang an erreichen."
+    architect: "Middleware-basierte (ADAPT) Standardisierung zur Reduktion der Modellfragmentierung; Variantenmanagement und Testautomatisierung für derivatübergreifende Daten."
+    function: "Funktionsverantwortlicher für eine kundennahe Fahrzeugfunktion von der Idee bis zum Go-live — ein Programm über ~3 Mio. € und 3 Jahre im gesamten V-Modell-Lebenszyklus. 6 Funktionen in Serie gebracht (zwei 2019, vier 2021); Erfinder bei Patentanmeldungen (siehe unten)."
+  patents_title: "Patentanmeldungen (Erfinder)"
+  patent_sole: "Alleiniger Erfinder"
+  patent_co: "Miterfinder"
+  patent_granted: "in den USA erteilt als"
+
+education:
+  title: "Ausbildung"
+  items:
+    msc: "Berufsbegleitend zu meiner Vollzeitstelle bei BMW abgeschlossen. Masterarbeit: Einfluss von Frontloading auf die Effizienz der Softwareentwicklung."
+    beng: "Schwerpunkt Automobilelektronik. Gefördert durch das BMW-SpeedUp-Stipendium (Nachwuchsprogramm). Bachelorarbeit (07/2016 — 01/2017): externe Wahrnehmung autonomer Systeme."
+    exchange: "Ingenieurstudium in internationalem Umfeld; interkulturelle Zusammenarbeit und Arbeitsspanisch."
+    apprentice: "Beginn meiner Zeit bei BMW. Projektleitung im eigenen Haus mit Millionen-Euro-Umfang."
+
+services:
+  title: "Expertisefelder"
+  cards:
+    - title: "KI-Agenten-Automatisierung von Governance & Delivery"
+      text: "Agentenarchitekturen und wiederverwendbare Skills entwerfen, die PR-Triage, CI-Fehlerbehebung, Release-Orchestrierung und Self-Service-Beiträge übernehmen — wiederkehrende manuelle Kosten werden zu automatisiertem Durchsatz."
+      bullets:
+        - "Manueller Aufwand wird beseitigt, nicht nur beschleunigt"
+        - "Zugangshürden werden durch Self-Service-Oberflächen ersetzt"
+        - "Kostenbewusste Modell- und Tooling-Entscheidungen"
+    - title: "Datenstandardisierung über heterogene Systeme hinweg"
+      text: "Ein gemeinsames semantisches Modell und einen Governance-Pfad entwerfen, die Wiederverwendung statt Nacharbeit über Produkte, Domänen und Märkte hinweg ermöglichen — und doppelte Entwicklungskosten senken."
+      bullets:
+        - "Weniger Fragmentierung und Doppelimplementierung"
+        - "Schnelleres Onboarding neuer Anwendungsfälle"
+        - "Gemeinsame Sprache über Teams hinweg"
+    - title: "Stabile Schnittstellen für Software-Defined Platforms"
+      text: "Abstraktionsschichten und Schnittstellenregeln definieren, die Entwicklungsteams vor Volatilität auf niedriger Ebene schützen."
+      bullets:
+        - "Klare Grenzen zwischen Produzent und Konsument"
+        - "Abwärtskompatible Weiterentwicklung"
+        - "Schnellere Lieferung ohne Schuldenspitzen"
+    - title: "Langfristige Architektur in regulierten Domänen steuern"
+      text: "Architektur-Leitplanken für Qualität, Testbarkeit und Wartbarkeit etablieren, ohne Teams auszubremsen."
+      bullets:
+        - "Konsistente Daten- und Schnittstellenqualität"
+        - "Geringere langfristige Änderungskosten"
+        - "Widerstandsfähigkeit in Landschaften mit hohem Legacy-Anteil"
+
+skills:
+  title: "Skills & Tools"
+  groups:
+    - title: "KI & Automatisierung"
+      tags: ["Multi-Agenten-Architektur", "Wiederverwendbare KI-Skills", "GitHub Copilot", "MCP-Integration", "Self-Service-Pipelines", "LLM-Benchmarking (Kosten/Leistung)"]
+    - title: "Architektur & Daten"
+      tags: ["Datenarchitektur", "Governance & Ownership", "Domänenmodellierung & Ontologien", "Schnittstellendesign", "Semantische Konsistenz"]
+    - title: "Methoden & Engineering"
+      tags: ["MBSE", "CI/CD & automatisiertes Testen", "Trunk-based Development", "Semantic Versioning", "Wöchentliches Release-Management"]
+    - title: "Tools"
+      tags: ["Git & GitHub", "Python", "YAML", "GraphQL SDL", "Cloud", "VS Code", "[COVESA](https://covesa.global) VSS", "JIRA & Confluence", "ALM Octane"]
+
+terms:
+  title: "Begriffe"
+  lead: "Allgemeinverständliche Definitionen der oben verwendeten Fachabkürzungen."
+  items:
+    - {term: "[COVESA](https://covesa.global)", def: "Connected Vehicle Systems Alliance — der offene Branchenverband, der den VSS-Standard pflegt."}
+    - {term: "[VSS](https://github.com/COVESA/vehicle_signal_specification)", def: "Vehicle Signal Specification — COVESAs offener Standard, um Fahrzeugdaten in einem gemeinsamen Vokabular zu modellieren."}
+    - {term: "[S2DM](https://github.com/COVESA/s2dm)", def: "Simplified Semantic Data Modeling — eine graph-/GraphQL-basierte Art, das VSS-Datenmodell auszudrücken."}
+    - {term: "FTE", def: "Full-Time Equivalent (Vollzeitäquivalent) — die Arbeitsleistung einer Vollzeitkraft; „~2,5 FTE“ bedeutet etwa zweieinhalb Vollzeitstellen."}
+    - {term: "[MBSE](https://en.wikipedia.org/wiki/Model-based_systems_engineering)", def: "Model-Based Systems Engineering — Entwickeln auf Basis eines maschinell prüfbaren Modells statt verstreuter Dokumente."}
+    - {term: "[CI/CD](https://en.wikipedia.org/wiki/CI/CD)", def: "Continuous Integration / Continuous Delivery — automatisierte Build-, Test- und Release-Pipelines."}
+    - {term: "E/E · ECU", def: "Die elektrische/elektronische Architektur eines Fahrzeugs; ein ECU (Electronic Control Unit, Steuergerät) ist einer der vielen verbundenen Bordcomputer."}
+    - {term: "[MCP](https://modelcontextprotocol.io)", def: "Model Context Protocol — ein offener Standard, mit dem KI-Agenten externe Werkzeuge und Daten sicher nutzen können."}
+    - {term: "[EU Data Act](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32023R2854)", def: "EU-Verordnung über den Zugang zu und die Weitergabe von Daten vernetzter Produkte, einschließlich Fahrzeugdaten."}
+    - {term: "[PR](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests)", def: "Pull Request — eine vorgeschlagene Codeänderung, die vor dem Mergen zur Prüfung eingereicht wird."}
+    - {term: "LLM", def: "Large Language Model — die Klasse von KI-Modellen, auf denen die Agenten basieren."}
+
+footer:
+  title: "Kontakt"
+  text: "München, Deutschland (hybrid; ich wohne in Nördlingen) · offen für unbefristete Senior-Rollen in Architektur und KI-Automatisierung in wachsenden Märkten."
+  side_note: "Nebenprojekt: automatisierte Ausschreibungssoftware für Handwerks- und Baubetriebe in Deutschland."
+  colophon: "Mit KI gebaut — LaTeX-generierter CV und statische Website, bereitgestellt über GitHub Actions."
+
+cv:
+  location: "München, Deutschland"
+  page_label: "Seite"
+  github_note: "Der Großteil der Arbeit liegt in BMWs privatem GitHub Enterprise; Walkthrough auf Anfrage."
+  sections:
+    contact: "KONTAKT"
+    languages: "SPRACHEN"
+    competencies: "KERNKOMPETENZEN"
+    tools: "SOFTWARE & TOOLS"
+    qualifications: "QUALIFIKATIONEN"
+    interests: "INTERESSEN"
+    highlights: "BERUFLICHE HIGHLIGHTS."
+    positions: "BERUFLICHE STATIONEN."
+    case: "REFERENZPROJEKT — KI-AUTOMATISIERUNG"
+    patents: "PATENTANMELDUNGEN (ERFINDER)."
+    education: "AUSBILDUNG"
+    profile: "Profil"
+  languages:
+    german: {name: "Deutsch", level: "Muttersprache"}
+    english: {name: "Englisch", level: "C1 – Oxford, UK & Chicago, USA"}
+    spanish: {name: "Spanisch", level: "B1 – Monterrey, Mexiko"}
+  competencies:
+    - "Verantwortung übernehmen"
+    - "Proaktive, lösungsorientierte Haltung"
+    - "Partner und Teams früh einbinden"
+    - "Führen ohne Weisungsbefugnis"
+    - "Früh bauen, schnell lernen"
+    - "Kommunikation auf Führungsebene"
+    - "Entscheidungsstark unter Budgetdruck"
+    - "Andere fördern und befähigen"
+  tool_groups:
+    ai: "KI & Automatisierung"
+    engineering: "Engineering"
+    process: "Prozess & Qualität"
+    collaboration: "Zusammenarbeit"
+  qualifications:
+    - "Betrieblicher Ersthelfer"
+    - "Interne Fahrberechtigungen"
+  interests:
+    - "Digitalisierung & Unternehmertum"
+    - "Ausdauersport"
+    - "Persönliche Entwicklung"
+    - "Bildung & Mentoring"
+    - "Kochen & Kaffee"
+  subtitle: "KI-Automatisierung für Data-Model-Governance — seit 2010 bei BMW, 9 Jahre im Engineering"
+  profile: "Senior Data Architect, seit 2010 bei BMW: 9 Jahre Engineering, 5 davon in der Datenarchitektur. Ich verantworte BMWs Fahrzeugdatenmodell und habe dessen Governance mit KI-Agenten automatisiert. Ich übernehme kritische Projekte, wenn Budgets und Teams schrumpfen. Ziel: KI-getriebene Datensysteme in wachsenden Märkten. Gesucht: Senior-/Lead-Rolle in München (hybrid, unbefristet); wohnhaft in Nördlingen."
+  highlights:
+    - "**~350.000 €/Jahr Kosten vermieden.** Ein KI-Agenten-System ersetzt zwei Berater und eine interne Stelle (~2,5 FTE); Tagesaufwand für ein Datenmodell mit 240 Nutzern von ~24\u200Ah auf 35\u200Amin (geschätzt)."
+    - "**20 Arbeitstage** für eine seit 6 Jahren offene Self-Service-Funktion."
+    - "**Verantwortlich für BMWs [VSS](https://github.com/COVESA/vehicle_signal_specification)-Datenmodell** mit 180+ Anwendungen; steuere BMWs Anbindung an [COVESA](https://covesa.global), gebe Umsetzungs-Feedback."
+    - "**3 Patentanmeldungen als Erfinder,** eine davon in den USA erteilt, aus der Funktionsentwicklung im Fahrzeug."
+  roles:
+    steward:
+      unit: "Vehicle Data Assets"
+      bullets:
+        - "Verantwortlich für BMWs VSS-Fahrzeugdatenmodell (Vehicle Shadow), genutzt von 180+ Backend-Anwendungen; Steward für historisierte Daten im Petabyte-Maßstab."
+        - "Zwei Berater und eine interne Stelle durch 7 KI-Agenten + Self-Service-UI „VSS Explorer“ ersetzt (~350.000 €/Jahr vermieden): PR-Triage, CI-Fehlerbehebung, EU-Data-Act-Klassifizierung, Releases."
+        - "Wöchentliche Releases nach der Budgetkürzung 01/2026 gehalten (geschätzt ~24\u200Ah → 35\u200Amin/Tag); Migration .vspec → GraphQL (S2DM) im Gange."
+    lead:
+      unit: "Vehicle Data Infrastructure"
+      bullets:
+        - "Disziplin für frühe Datengestaltung über ein Bordnetz mit 60+ ECUs etabliert."
+        - "E/E-Anforderungen (physischer Bus) gesetzt, damit benötigte Daten die Fahrzeug-Datensammler von Beginn an erreichen."
+    architect:
+      unit: "Data Strategy, Connected Vehicle"
+      bullets:
+        - "Middleware-basierte (ADAPT) Standardisierung zur Reduktion der Modellfragmentierung über Plattformen hinweg."
+        - "Variantenmanagement und Testautomatisierung für derivatübergreifende Daten."
+    function:
+      unit: "Intelligent Personal Assistant"
+      bullets:
+        - "Funktionsverantwortlicher einer kundennahen Fahrzeugfunktion von der Idee bis zum Go-live: ~3-Mio.-€-Programm über 3 Jahre, gesamter V-Modell-Lebenszyklus."
+        - "6 Fahrzeugfunktionen in Serie — zwei 2019, vier 2021; Erfinder bei Patentanmeldungen (Seite 2)."
+  case:
+    title: "VSS-Datenmodell-Governance, automatisiert"
+    unit: "BMW Group | Vehicle Shadow"
+    bullets:
+      - "7 spezialisierte Agenten (~15 Skills) orchestrieren PR-Triage, CI-Fehlerbehebung, Auto-Rebase, EU-Data-Act-Klassifizierung, Changelog und Versionssprünge sowie Release-Board-Sortierung."
+      - "Self-Service-UI „VSS Explorer“: nicht-technische Beitragende fordern Signale ohne Git/PR-Kenntnisse an; eine Backend-Pipeline erzeugt automatisch konforme PRs."
+      - "Kostenbewusstes LLM-Tooling: Beschreibungs-Rewriter über 3 Modellstufen auf bestes Kosten-Qualitäts-Verhältnis verglichen."
+      - "COVESA: BMWs Verbindungsabteilung (aus Compliance-Gründen eingerichtet) arbeitet unter meiner Anleitung; ich gebe Umsetzungs-Feedback an die VSS-Community."
+      - "Wirkung: ~350.000 €/Jahr (~2,5 FTE: zwei Berater und eine interne Stelle) an Governance-Kosten vermieden, Beraterabhängigkeit beendet, für 45+ Nutzer bei wöchentlichem Release-Rhythmus."
+  patent_sole: "Alleinerfinder"
+  patent_co: "Miterfinder"
+  patent_published: "veröff. {date}"
+  patent_filed: "angem. in {where}"
+  patent_granted: " (US erteilt)"
+  education:
+    msc: ["Berufsbegleitend zur Position bei BMW.", "Masterarbeit: Einfluss von Frontloading auf die Effizienz der Softwareentwicklung."]
+    beng: ["Schwerpunkt Automobilelektronik; BMW-SpeedUp-Stipendium (Nachwuchsprogramm).", "Bachelorarbeit (07/2016 – 01/2017): externe Wahrnehmung autonomer Systeme."]
+    exchange: ["Interkulturelle Erfahrung."]
+    apprentice: ["Projektleitung im eigenen Haus mit Millionen-Euro-Umfang."]

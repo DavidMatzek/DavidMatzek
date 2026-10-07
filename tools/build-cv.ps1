@@ -3,7 +3,7 @@
   Build a LaTeX CV to PDF with Tectonic, optionally rendering PNG previews.
 
 .EXAMPLE
-  ./tools/build-cv.ps1 -Tex cv/generated/2026-09-26_generic_senior-data-systems-architect_v1.tex -Png
+  ./tools/build-cv.ps1 -Tex cv/generated/cv-en.tex -Png
 #>
 param(
     [Parameter(Mandatory = $true)][string]$Tex,

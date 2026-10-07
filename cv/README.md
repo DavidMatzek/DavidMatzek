@@ -11,6 +11,17 @@ Use one canonical profile source to produce multiple targeted CV versions aligne
 3. Generate a tailored CV using cv/templates/cv-tailoring-template.md.
 4. Save final output in cv/generated/ with standardized naming.
 
+## Bilingual site and 2-page CV (EN/DE)
+The landing page and the 2-page CV are generated from one content source:
+
+- `content/data.yaml`: language-neutral facts (dates, ids, URLs).
+- `content/en.yaml`, `content/de.yaml`: all translatable text; identical key structure (checked by the build).
+- `templates/site/index.html.j2`, `templates/cv/cv.tex.j2`: one template per artifact. Layout lives in `site/assets/style.css` and `cv/templates/cv-template.tex`.
+
+Build: `./tools/build.ps1` (`-Png` for CV previews, `-SiteOnly` for HTML only). Outputs are generated and not committed: `site/index.html`, `site/de/index.html`, `cv/generated/cv-{en,de}.tex`, and the PDFs in `site/assets/`. CI (`.github/workflows/pages.yml`) rebuilds them and fails if a CV is not exactly 2 pages.
+
+Setup once: `python -m venv .venv; .venv/Scripts/pip install -r requirements.txt`.
+
 ## Output Naming Convention
 Use this filename pattern:
 

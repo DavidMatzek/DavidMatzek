@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="{{ t.ui.html_lang }}">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>{{ t.meta.title|h }}</title>
+  <meta name="description" content="{{ t.meta.description|attr }}" />
+  <meta name="author" content="{{ d.person_name|attr }}" />
+  <link rel="canonical" href="{{ page_url }}" />
+  <link rel="alternate" hreflang="en" href="{{ d.site.base_url }}" />
+  <link rel="alternate" hreflang="de" href="{{ d.site.base_url }}de/" />
+  <link rel="alternate" hreflang="x-default" href="{{ d.site.base_url }}" />
+  <meta property="og:title" content="{{ t.meta.title|attr }}" />
+  <meta property="og:description" content="{{ t.meta.og_description|attr }}" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="{{ page_url }}" />
+  <meta property="og:locale" content="{{ t.ui.locale }}" />
+  <meta name="theme-color" content="#157AA6" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2064%2064'%3E%3Crect%20width='64'%20height='64'%20rx='13'%20fill='%231F9ED4'/%3E%3Ctext%20x='32'%20y='43'%20font-family='Arial,sans-serif'%20font-size='30'%20font-weight='bold'%20fill='white'%20text-anchor='middle'%3EDM%3C/text%3E%3C/svg%3E" />
+  <link rel="stylesheet" href="{{ prefix }}assets/style.css" />
+{% if lang == 'en' %}
+  <script>
+    /* First visit only: German browsers go to /de/. A stored choice (toggle) always wins. */
+    try {
+      var pref = localStorage.getItem('lang');
+      var browser = (navigator.language || '').slice(0, 2).toLowerCase();
+      if (pref === 'de' || (!pref && browser === 'de')) { location.replace('de/' + location.hash); }
+    } catch (e) {}
+  </script>
+{% endif %}
+</head>
+<body id="top">
+  <a class="skip-link" href="#main">{{ t.ui.skip|h }}</a>
+
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="#top"><span class="brand-mark">DM</span> {{ d.person_name }}</a>
+      <nav class="nav" aria-label="{{ t.ui.nav_label|attr }}">
+        <a href="#snapshot">{{ t.nav.overview|h }}</a>
+        <a href="#proof">{{ t.nav.proof|h }}</a>
+        <a href="#case">{{ t.nav.case|h }}</a>
+        <a href="#experience">{{ t.nav.experience|h }}</a>
+        <a href="#education">{{ t.nav.education|h }}</a>
+        <a href="#services">{{ t.nav.expertise|h }}</a>
+        <a href="#skills">{{ t.nav.skills|h }}</a>
+        <a href="#terms">{{ t.nav.terms|h }}</a>
+        <a href="#contact">{{ t.nav.contact|h }}</a>
+      </nav>
+      <div class="lang-switch" role="group" aria-label="{{ t.ui.lang_label|attr }}">
+{% for code in ['en', 'de'] %}
+        <a href="{{ lang_links[code] }}" lang="{{ code }}" hreflang="{{ code }}" data-lang="{{ code }}" title="{{ t.ui.lang_names[code]|attr }}"{% if code == lang %} aria-current="true"{% endif %}>{{ code|upper }}</a>
+{% endfor %}
+      </div>
+      <a class="btn btn-primary btn-sm" href="{{ cv_href }}">{{ t.ui.header_cv|h }}</a>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- HERO -->
+    <section class="hero">
+      <div class="wrap hero-inner">
+        <p class="eyebrow">{{ t.hero.eyebrow|h }}</p>
+        <h1>{{ t.hero.h1|h }}<br /><span class="accent">{{ t.hero.h1_accent|h }}</span></h1>
+        <p class="lede">{{ t.hero.lede|h }}</p>
+        <div class="cta-row">
+          <a class="btn btn-primary" href="{{ cv_href }}">{{ t.ui.hero_cv|h }}</a>
+          <a class="btn btn-ghost" href="{{ d.site.linkedin_url }}" rel="noopener">LinkedIn</a>
+          <a class="btn btn-ghost" href="{{ d.site.github_url }}" rel="noopener">GitHub</a>
+          <a class="btn btn-ghost" href="mailto:{{ d.site.email }}">{{ t.ui.email|h }}</a>
+        </div>
+        <ul class="facts">
+{% for fact in t.hero.facts %}
+{% set link = d.hero_fact_links[loop.index0] %}
+{% if link %}
+          <li class="fact-link"><a href="{{ link }}"><strong>{{ fact.strong|h }}</strong><span>{{ fact.span|h }}</span></a></li>
+{% else %}
+          <li><strong>{{ fact.strong|h }}</strong><span>{{ fact.span|h }}</span></li>
+{% endif %}
+{% endfor %}
+        </ul>
+      </div>
+    </section>
+
+    <!-- SNAPSHOT -->
+    <section id="snapshot" class="section">
+      <div class="wrap">
+        <h2 class="section-title">{{ t.snapshot.title|h }}</h2>
+        <p class="section-lead">{{ t.snapshot.lead|h }}</p>
+        <ul class="check-list">
+{% for item in t.snapshot['items'] %}
+          <li>{{ item|h }}</li>
+{% endfor %}
+        </ul>
+      </div>
+    </section>
+
+    <!-- PROOF -->
+    <section id="proof" class="section section-soft">
+      <div class="wrap">
+        <h2 class="section-title">{{ t.proof.title|h }}</h2>
+        <div class="cards proof-cards">
+{% for card in t.proof.cards %}
+          <div class="card stat">
+            <div class="stat-num">{{ card.num|h }}</div>
+            <p>{{ card.text|h }}</p>
+          </div>
+{% endfor %}
+        </div>
+      </div>
+    </section>
+
+    <!-- FEATURED AI CASE -->
+    <section id="case" class="section">
+      <div class="wrap">
+        <span class="pill">{{ t.case.pill|h }}</span>
+        <h2 class="section-title">{{ t.case.title|h }}</h2>
+        <p class="section-lead">{{ t.case.lead|h }}</p>
+        <div class="case-grid">
+          <div class="case-block">
+            <h3>{{ t.case.built_title|h }}</h3>
+            <ul class="bullets">
+{% for item in t.case.built %}
+              <li>{{ item|h }}</li>
+{% endfor %}
+            </ul>
+          </div>
+          <div class="case-block">
+            <h3>{{ t.case.impact_title|h }}</h3>
+            <ul class="bullets">
+{% for item in t.case.impact %}
+              <li>{{ item|h }}</li>
+{% endfor %}
+            </ul>
+            <p class="case-skills">{{ t.case.skills|h }}</p>
+          </div>
+        </div>
+        <p class="note">{{ t.case.note|h }}</p>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section id="experience" class="section section-soft">
+      <div class="wrap">
+        <h2 class="section-title">{{ t.experience.title|h }}</h2>
+        <ol class="timeline">
+{% for r in d.roles %}
+          <li>
+            <div class="tl-date">{{ r.start }} — {{ r.end or t.common.today|h }}</div>
+            <div class="tl-body">
+              <h3>{{ t.common.roles[r.id].title|h }} <span class="tl-org">{{ t.common.employer|h }}</span></h3>
+              <p>{{ t.experience.roles[r.id]|h }}</p>
+            </div>
+          </li>
+{% endfor %}
+        </ol>
+        <div class="patents">
+          <h3>{{ t.experience.patents_title|h }}</h3>
+          <ul class="patent-list">
+{% for p in d.patents %}
+            <li><a href="{{ espacenet(p.id) }}" rel="noopener">{{ p.id }}</a> — {{ t.common.patents[p.id]|h }}. {{ (t.experience.patent_sole if p.inventor == 'sole' else t.experience.patent_co)|h }}{% if p.granted %}; {{ t.experience.patent_granted|h }} <a href="{{ espacenet(p.granted) }}" rel="noopener">{{ p.granted }}</a>{% endif %}.</li>
+{% endfor %}
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section id="education" class="section">
+      <div class="wrap">
+        <h2 class="section-title">{{ t.education.title|h }}</h2>
+        <ol class="timeline">
+{% for e in d.education %}
+          <li>
+            <div class="tl-date">{{ e.start }} — {{ e.end }}</div>
+            <div class="tl-body">
+              <h3>{{ t.common.education[e.id].title|h }} <span class="tl-org">{{ t.common.education[e.id].org|h }}</span></h3>
+              <p>{{ t.education['items'][e.id]|h }}</p>
+            </div>
+          </li>
+{% endfor %}
+        </ol>
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section id="services" class="section section-soft">
+      <div class="wrap">
+        <h2 class="section-title">{{ t.services.title|h }}</h2>
+        <div class="cards services-cards">
+{% for card in t.services.cards %}
+          <div class="card service">
+            <h3>{{ card.title|h }}</h3>
+            <p>{{ card.text|h }}</p>
+            <ul class="mini">
+{% for b in card.bullets %}
+              <li>{{ b|h }}</li>
+{% endfor %}
+            </ul>
+          </div>
+{% endfor %}
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section">
+      <div class="wrap">
+        <h2 class="section-title">{{ t.skills.title|h }}</h2>
+        <div class="skill-groups">
+{% for g in t.skills.groups %}
+          <div class="skill-group">
+            <h3>{{ g.title|h }}</h3>
+            <div class="tags">
+              {% for tag in g.tags %}<span>{{ tag|h }}</span>{% endfor %}
+
+            </div>
+          </div>
+{% endfor %}
+        </div>
+      </div>
+    </section>
+
+    <!-- KEY TERMS -->
+    <section id="terms" class="section section-soft">
+      <div class="wrap">
+        <h2 class="section-title">{{ t.terms.title|h }}</h2>
+        <p class="section-lead">{{ t.terms.lead|h }}</p>
+        <dl class="glossary">
+{% for item in t.terms['items'] %}
+          <div><dt>{{ item.term|h }}</dt><dd>{{ item.def|h }}</dd></div>
+{% endfor %}
+        </dl>
+      </div>
+    </section>
+  </main>
+
+  <footer id="contact" class="site-footer">
+    <div class="wrap footer-inner">
+      <div>
+        <h2>{{ t.footer.title|h }}</h2>
+        <p>{{ t.footer.text|h }}</p>
+        <p class="side-note">{{ t.footer.side_note|h }}</p>
+      </div>
+      <div class="footer-links">
+        <a class="btn btn-primary" href="{{ cv_href }}">{{ t.ui.footer_cv|h }}</a>
+        <a class="btn btn-ghost" href="mailto:{{ d.site.email }}">{{ d.site.email }}</a>
+        <a class="btn btn-ghost" href="{{ d.site.linkedin_url }}" rel="noopener">LinkedIn</a>
+        <a class="btn btn-ghost" href="{{ d.site.github_url }}" rel="noopener">GitHub</a>
+      </div>
+    </div>
+    <div class="wrap colophon">{{ t.footer.colophon|h }} &middot; <a href="{{ prefix }}impressum.html">{{ t.ui.legal|h }}</a></div>
+  </footer>
+
+  <script>
+    /* Remember an explicit language choice so the root page stops auto-redirecting. */
+    document.querySelectorAll('.lang-switch a[data-lang]').forEach(function (a) {
+      a.addEventListener('click', function () {
+        try { localStorage.setItem('lang', a.dataset.lang); } catch (e) {}
+      });
+    });
+  </script>
+</body>
+</html>

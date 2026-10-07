@@ -1,0 +1,269 @@
+# English content. Keep key structure identical to de.yaml (tools/build.py checks parity).
+# Inline markup: **bold**, [text](url). Use “curly quotes”; \u00A0 = no-break space, \u200A = hair space.
+
+common:
+  employer: "BMW Group"
+  roles:
+    steward:   {title: "Data Steward & Data Model Owner"}
+    lead:      {title: "Lead Data Designer"}
+    architect: {title: "E/E Data Architect"}
+    function:  {title: "Specialist Function Development"}
+  education:
+    msc:        {title: "M.Sc. Systems Engineering", org: "University of Applied Sciences Munich"}
+    beng:       {title: "B.Eng. Mechatronics", org: "University of Applied Sciences Esslingen"}
+    exchange:   {title: "Exchange semester", org: "Tecnológico de Monterrey, Mexico"}
+    apprentice: {title: "Apprenticeship Mechatronics (IHK)", org: "BMW Group, Munich"}
+  patents:
+    WO2020083962A1: "Apparatus and control unit for automating a state change of a window pane of a vehicle"
+    WO2020011655A1: "Method and system for detecting data in vehicles"
+    DE102018209967A1: "Method for automatically configuring a function in a vehicle"
+  today: "today"
+
+ui:
+  html_lang: "en"
+  locale: "en_US"
+  skip: "Skip to content"
+  nav_label: "Primary"
+  lang_label: "Language"
+  lang_names: {en: "English", de: "Deutsch"}
+  header_cv: "Download CV"
+  hero_cv: "↓\u00A0Download 2-page CV (PDF)"
+  footer_cv: "Download 2-page CV"
+  email: "Email"
+  legal: "Impressum & Datenschutz"
+
+meta:
+  title: "David Matzek — Senior Data & Systems Architect"
+  description: "Senior Data & Systems Architect, Munich. With BMW since 2010: 9 years in engineering, 5 in data architecture. Owner of BMW's VSS vehicle data model; built a multi-agent AI system that replaced two consultants and one internal position."
+  og_description: "AI-agent automation for data-model governance. Owner of BMW's VSS vehicle data model, closely aligned with COVESA."
+
+nav:
+  overview: "Overview"
+  proof: "Proof"
+  case: "Case\u00A0study"
+  experience: "Experience"
+  education: "Education"
+  expertise: "Expertise"
+  skills: "Skills"
+  terms: "Terms"
+  contact: "Contact"
+
+hero:
+  eyebrow: "Munich (hybrid) · open to permanent senior roles"
+  h1: "Senior Data & Systems Architect"
+  h1_accent: "AI automation for data-model governance"
+  lede: "With BMW since 2010: 9 years in engineering, 5 of them in data architecture. I own BMW's [VSS](#terms) vehicle-data model (180+ consuming applications) and built a 7-agent AI system that replaced two consultants and one internal position (~2.5 FTE) for governance, CI/CD and release work — while weekly releases continued."
+  facts:
+    - {strong: "9 yrs engineering", span: "at BMW (since 2010) · 5 in data architecture"}
+    - {strong: "~€350k/yr", span: "governance cost avoided →"}
+    - {strong: "180+", span: "consumer apps served →"}
+    - {strong: "BMW", span: "VSS data-model owner"}
+
+snapshot:
+  title: "Profile overview"
+  lead: "Where I help: keeping business-critical data operations running through budget and headcount cuts, without losing long-term architecture quality. **What's next:** AI is accelerating, and I want to build AI-driven data systems in growing markets."
+  items:
+    - "Replace recurring manual work — and the consultant spend behind it — with AI automation."
+    - "Give leadership data-backed transparency into status, cost, and risk."
+    - "Keep platforms future-ready through governed evolution and release discipline."
+
+proof:
+  title: "Proof in numbers"
+  cards:
+    - {num: "~€350k/yr", text: "of governance cost avoided (~2.5 FTE: two consultants and one internal position replaced) by a 7-agent AI system."}
+    - {num: "~24\u200Ah → 35\u200Amin", text: "estimated daily effort for a 240-consumer data model (3 people × 8\u00A0h) — sustained after the January 2026 budget and consultant cut."}
+    - {num: "20 workdays", text: "to deliver a self-service capability open for 6 years, freeing budget for other constrained projects."}
+    - {num: "180+ apps", text: "served at a sustained weekly release cadence with far less manual overhead."}
+
+case:
+  pill: "Featured case"
+  title: "AI-agent automation for VSS data-model governance"
+  lead: "BMW's [VSS](https://github.com/COVESA/vehicle_signal_specification) (Vehicle Signal Specification) repo is the data model behind the Vehicle Shadow stream, consumed by 180+ backend applications — from customer-facing apps to dealer and backend systems. Manual pull-request (PR) review, board triage, release orchestration and CI-fixing consumed the equivalent of ~2.5 full-time employees — two external consultants and one internal position — until the budget for that setup was cut in January 2026. Non-technical stakeholders couldn't contribute without engineering support."
+  built_title: "What I built"
+  built:
+    - "**7 purpose-built AI agents** orchestrating ~15 reusable skills: auto-triage CI failures, auto-rebase conflicts, classify EU Data Act requirements, generate changelogs and version bumps, sort the release board."
+    - "**“VSS Explorer” self-service UI** — contributors without repo access submit signal requests directly; a backend pipeline turns them into structured issues and auto-generates compliant PRs, removing the git/PR literacy barrier."
+    - "**Cost-aware LLM tooling** — a linter + rewriter benchmarked across 3 model tiers to pick the most cost-efficient option at equal quality."
+  impact_title: "Impact"
+  impact:
+    - "Avoided **~€350k/year (~2.5 FTE)** of governance cost by replacing two consultants and one internal position, and ended the external consultant dependency, while serving 45+ regular contributors."
+    - "Sustained a **weekly release cadence** through the budget cut, redirecting freed budget to other constrained projects."
+    - "Delivered in parallel with a strategic **.vspec → GraphQL (S2DM)** data-model migration for the same 180+ applications."
+    - "Work closely with **COVESA**: BMW's COVESA liaison department (set up for compliance reasons) works under my guidance, and I give implementation feedback to the VSS community."
+  skills: "Agentic workflow design · CI/CD engineering · self-service process redesign · cost-aware LLM decisions · multi-year migration alongside live operations."
+  note: "**Why this isn't on my public GitHub:** almost all of this delivery runs inside BMW's private GitHub Enterprise, so the code and commit history can't be shared publicly. I'm glad to walk through the architecture, agents, and results in detail on request."
+
+experience:
+  title: "Experience"
+  roles:
+    steward: "Own BMW's VSS vehicle-data model (Vehicle Shadow), 180+ consumer apps. Built 7 AI agents + a “VSS Explorer” self-service UI that avoided ~€350k/yr of governance cost and ended consultant dependency; sustained weekly releases through a budget cut while driving the .vspec → GraphQL (S2DM) migration."
+    lead: "Established an early-phase data-design discipline across a 60+ ECU board net; set E/E (physical bus) requirements so needed data reaches in-car collectors by design."
+    architect: "Middleware-based (ADAPT) standardization reducing model fragmentation; variant management and test automation for cross-derivative data."
+    function: "Function owner of a customer-facing in-car function from idea to go-live — a ~€3M program over 3 years across the full V-model lifecycle. 6 functions released to series (two in 2019, four in 2021); inventor on patent filings (below)."
+  patents_title: "Patent filings (inventor)"
+  patent_sole: "Sole inventor"
+  patent_co: "Co-inventor"
+  patent_granted: "granted in the US as"
+
+education:
+  title: "Education"
+  items:
+    msc: "Completed in parallel to my full-time role at BMW. Master thesis: influence of frontloading on software-development efficiency."
+    beng: "Focus on automotive electronics. Supported by the BMW SpeedUp scholarship (future-talent program). Bachelor thesis (07/2016 — 01/2017): external perception of autonomous systems."
+    exchange: "Engineering studies in an international setting; cross-cultural collaboration and working Spanish."
+    apprentice: "Start of my time at BMW. In-house project lead with multi-million-euro scope."
+
+services:
+  title: "Areas of expertise"
+  cards:
+    - title: "AI-agent automation of governance & delivery"
+      text: "Design agent architectures and reusable skills that take over PR triage, CI-fixing, release orchestration and self-service contribution — turning recurring manual cost into automated throughput."
+      bullets:
+        - "Manual overhead eliminated, not merely accelerated"
+        - "Access barriers replaced with self-service interfaces"
+        - "Cost-aware model and tooling decisions"
+    - title: "Data standardization across heterogeneous systems"
+      text: "Design a shared semantic model and governance path that enables reuse instead of rework across products, domains and markets — cutting duplicate build cost."
+      bullets:
+        - "Less fragmentation and duplicate implementation"
+        - "Faster onboarding of new use cases"
+        - "Shared language across teams"
+    - title: "Stable interfaces for software-defined platforms"
+      text: "Define abstraction layers and interface rules that protect delivery teams from low-level volatility."
+      bullets:
+        - "Clear producer-consumer boundaries"
+        - "Backward-compatible evolution"
+        - "Faster delivery without debt spikes"
+    - title: "Governing long-term architecture in regulated domains"
+      text: "Establish architecture guardrails for quality, testability and maintainability without slowing teams down."
+      bullets:
+        - "Consistent data and interface quality"
+        - "Reduced long-term change cost"
+        - "Resilience in legacy-heavy landscapes"
+
+skills:
+  title: "Skills & tools"
+  groups:
+    - title: "AI & Automation"
+      tags: ["Multi-agent architecture", "Reusable AI skills", "GitHub Copilot", "MCP integration", "Self-service pipelines", "LLM cost/perf benchmarking"]
+    - title: "Architecture & Data"
+      tags: ["Data architecture", "Governance & ownership", "Domain modeling & ontologies", "Interface design", "Semantic consistency"]
+    - title: "Methods & Engineering"
+      tags: ["MBSE", "CI/CD & automated testing", "Trunk-based dev", "Semantic versioning", "Weekly release management"]
+    - title: "Tools"
+      tags: ["Git & GitHub", "Python", "YAML", "GraphQL SDL", "Cloud", "VS Code", "[COVESA](https://covesa.global) VSS", "JIRA & Confluence", "ALM Octane"]
+
+terms:
+  title: "Key terms"
+  lead: "Plain-language definitions for the domain acronyms used above."
+  items:
+    - {term: "[COVESA](https://covesa.global)", def: "Connected Vehicle Systems Alliance — the open industry body that maintains the VSS standard."}
+    - {term: "[VSS](https://github.com/COVESA/vehicle_signal_specification)", def: "Vehicle Signal Specification — COVESA's open standard for modeling vehicle data in one shared vocabulary."}
+    - {term: "[S2DM](https://github.com/COVESA/s2dm)", def: "Simplified Semantic Data Modeling — a graph/GraphQL-based way to express the VSS data model."}
+    - {term: "FTE", def: "Full-Time Equivalent — one person's full-time workload; “~2.5 FTE” means roughly two and a half people's full-time workload."}
+    - {term: "[MBSE](https://en.wikipedia.org/wiki/Model-based_systems_engineering)", def: "Model-Based Systems Engineering — designing from one machine-checkable model instead of scattered documents."}
+    - {term: "[CI/CD](https://en.wikipedia.org/wiki/CI/CD)", def: "Continuous Integration / Continuous Delivery — automated build, test, and release pipelines."}
+    - {term: "E/E · ECU", def: "A vehicle's Electrical/Electronic architecture; an ECU (Electronic Control Unit) is one of the many onboard computers it links."}
+    - {term: "[MCP](https://modelcontextprotocol.io)", def: "Model Context Protocol — an open standard that lets AI agents securely use external tools and data."}
+    - {term: "[EU Data Act](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32023R2854)", def: "EU regulation governing access to and sharing of connected-product data, including vehicle data."}
+    - {term: "[PR](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests)", def: "Pull Request — a proposed code change submitted for review before it is merged."}
+    - {term: "LLM", def: "Large Language Model — the class of AI models the agents are built on."}
+
+footer:
+  title: "Contact"
+  text: "Munich, Germany (hybrid; I live in Nördlingen) · open to permanent senior architecture and AI-automation roles in growing markets."
+  side_note: "Side project: automated tendering software for German trades and construction firms."
+  colophon: "Built with AI — LaTeX-generated CV and static site, deployed via GitHub Actions."
+
+cv:
+  location: "Munich, Germany"
+  page_label: "Page"
+  github_note: "Most work is in BMW's private GitHub Enterprise; walkthrough on request."
+  sections:
+    contact: "CONTACT"
+    languages: "LANGUAGES"
+    competencies: "KEY COMPETENCIES"
+    tools: "SOFTWARE & TOOLS"
+    qualifications: "QUALIFICATIONS"
+    interests: "INTERESTS"
+    highlights: "PROFESSIONAL HIGHLIGHTS."
+    positions: "PROFESSIONAL POSITIONS."
+    case: "SELECTED CASE — AI-AGENT AUTOMATION"
+    patents: "PATENT FILINGS (INVENTOR)."
+    education: "EDUCATION"
+    profile: "Profile"
+  languages:
+    german: {name: "German", level: "Native"}
+    english: {name: "English", level: "C1 – Oxford, UK & Chicago, USA"}
+    spanish: {name: "Spanish", level: "B1 – Monterrey, Mexico"}
+  competencies:
+    - "Taking ownership & accountability"
+    - "Proactive, solution-driven mindset"
+    - "Involving partners and teams early"
+    - "Leading without formal authority"
+    - "Building early, failing fast"
+    - "Executive-level communication"
+    - "Decisive under budget pressure"
+    - "Mentoring and enabling others"
+  tool_groups:
+    ai: "AI & automation"
+    engineering: "Engineering"
+    process: "Process & quality"
+    collaboration: "Collaboration"
+  qualifications:
+    - "Internal first aider"
+    - "Internal driving licenses"
+  interests:
+    - "Digitalization & entrepreneurship"
+    - "Endurance sports"
+    - "Personal development"
+    - "Education & mentoring"
+    - "Cooking & coffee"
+  subtitle: "AI automation for data-model governance — with BMW since 2010, 9 years in engineering"
+  profile: "Senior data architect, with BMW since 2010: 9 years in engineering, 5 of them in data architecture. I own BMW's vehicle-data model and automated its governance with AI agents. I take on critical projects when budgets and teams shrink. Next step: building AI-driven data systems in growing markets. Seeking senior or lead roles in Munich (hybrid, permanent); I live in Nördlingen."
+  highlights:
+    - "**~€350k per year cost avoided.** An AI-agent system replaced two consultants and one internal position (~2.5 FTE); daily effort for a 240-consumer data model dropped from ~24\u200Ah to 35\u200Amin (estimated)."
+    - "**20 workdays.** Time to deliver a self-service feature that had been open for 6 years."
+    - "**Owner of BMW's [VSS](https://github.com/COVESA/vehicle_signal_specification) data model** for 180+ applications; steering BMW's liaison to [COVESA](https://covesa.global) and feeding implementation experience back."
+    - "**3 patent filings as inventor,** one granted in the US, from in-car function development."
+  roles:
+    steward:
+      unit: "Vehicle Data Assets"
+      bullets:
+        - "Own BMW's VSS vehicle-data model (Vehicle Shadow), consumed by 180+ backend applications; steward of petabyte-scale historized data."
+        - "Replaced two consultants and one internal position with 7 AI agents + a self-service “VSS Explorer” UI — ~€350k/year avoided — automating PR triage, CI-fixing, EU Data Act classification and releases."
+        - "Sustained weekly releases after the 01/2026 budget cut (estimated ~24\u200Ah → 35\u200Amin/day); driving the .vspec → GraphQL (S2DM) model migration."
+    lead:
+      unit: "Vehicle Data Infrastructure"
+      bullets:
+        - "Established an early-phase data-design discipline across a 60+ ECU board net."
+        - "Set E/E (physical bus) requirements so needed data reaches in-car collectors by design."
+    architect:
+      unit: "Data Strategy, Connected Vehicle"
+      bullets:
+        - "Middleware-based (ADAPT) standardization reducing model fragmentation across platforms."
+        - "Variant management and test automation for cross-derivative data."
+    function:
+      unit: "Intelligent Personal Assistant"
+      bullets:
+        - "Function owner, customer-facing in-car function idea → go-live: a ~€3M program over 3 years across the full V-model lifecycle."
+        - "6 in-car functions to series — two in 2019, four in 2021; inventor on patent filings (page 2)."
+  case:
+    title: "VSS Data-Model Governance, Automated"
+    unit: "BMW Group | Vehicle Shadow"
+    bullets:
+      - "7 purpose-built agents (~15 skills) orchestrate PR triage, CI-fixing, auto-rebase, EU Data Act classification, changelog and version bumps, and release-board sorting."
+      - "“VSS Explorer” self-service UI lets non-technical contributors request signals without git/PR skills; a backend pipeline auto-generates compliant PRs."
+      - "Cost-aware LLM tooling: description rewriter benchmarked across 3 model tiers for best cost/quality."
+      - "COVESA: BMW's liaison department (set up for compliance reasons) works under my guidance; I give implementation feedback to the VSS community."
+      - "Impact: ~€350k/year (~2.5 FTE: two consultants and one internal position) of governance cost avoided and consultant dependency ended, for 45+ users at a weekly release cadence."
+  patent_sole: "Sole inventor"
+  patent_co: "Co-inventor"
+  patent_published: "published {date}"
+  patent_filed: "filed in {where}"
+  patent_granted: " (US granted)"
+  education:
+    msc: ["In parallel to professional position at BMW.", "Master thesis: influence of frontloading on software-development efficiency."]
+    beng: ["Focus on automotive electronics; BMW SpeedUp scholarship (future-talent program).", "Bachelor thesis (07/2016 – 01/2017): external perception of autonomous systems."]
+    exchange: ["Cross-cultural experience."]
+    apprentice: ["In-house project lead with multi-million-euro scope."]

@@ -53,6 +53,11 @@ a:hover { text-decoration: underline; }
 .nav a { color: var(--muted); font-weight: 500; font-size: 15px; }
 .nav a:hover { color: var(--accent-dark); text-decoration: none; }
 
+.lang-switch { display: flex; align-items: center; gap: 2px; padding: 2px; border: 1px solid var(--line); border-radius: 999px; background: #fff; }
+.lang-switch a { padding: 3px 10px; border-radius: 999px; font-size: 13px; font-weight: 700; letter-spacing: .04em; color: var(--muted); }
+.lang-switch a:hover { color: var(--accent-dark); text-decoration: none; }
+.lang-switch a[aria-current] { background: var(--accent-dark); color: #fff; }
+
 /* ---------- Buttons ---------- */
 .btn {
   display: inline-flex; align-items: center; justify-content: center;
@@ -171,7 +176,8 @@ a:hover { text-decoration: underline; }
 /* ---------- Responsive ---------- */
 @media (max-width: 880px) {
   .header-inner { flex-wrap: wrap; height: auto; padding-top: 10px; padding-bottom: 6px; row-gap: 4px; }
-  .btn-sm { margin-left: auto; }
+  .btn-sm { margin-left: 0; }
+  .lang-switch { margin-left: auto; }
   .nav { order: 3; width: 100%; margin-left: 0; flex-wrap: nowrap; overflow-x: auto; gap: 16px; padding-bottom: 6px; }
   .nav a { white-space: nowrap; }
   .proof-cards { grid-template-columns: 1fr 1fr; }

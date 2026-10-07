@@ -13,8 +13,8 @@ Evaluate the candidate's materials the way a real hiring-side professional would
 
 Materials in this workspace:
 
-- CV: `cv/generated/` (latest `.tex` / `.md`), templates in `cv/templates/`
-- Landing page: `site/index.html`, `site/assets/style.css`; live at https://davidmatzek.github.io/DavidMatzek/
+- CV: generated `cv/generated/cv-en.tex` and `cv/generated/cv-de.tex` (run `./tools/build.ps1` first if missing); sources are `content/*.yaml` + `templates/cv/cv.tex.j2`, layout in `cv/templates/`
+- Landing page: generated `site/index.html` (EN) and `site/de/index.html` (DE); sources are `content/*.yaml` + `templates/site/index.html.j2`, styling in `site/assets/style.css`; live at https://davidmatzek.github.io/DavidMatzek/
 - Source facts: `profile/master/`, `profile/evidence/`, root `*.md` files
 - Target roles: `targets/job-searches/`
 
