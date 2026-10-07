@@ -188,9 +188,9 @@ What Was Implemented:
 
 Result: Owned a customer-facing in-vehicle function end to end — from idea to
 series go-live across the full development lifecycle — as a ~€3M program over 3
-years. Delivered customer-facing functions to series release in 2019,
-generating two patent specifications and increased portfolio value through
-sustained usage and conversion impact.
+years. Shipped two customer-facing functions to series release in 2019 and two
+more in 2021 — four in total — generating two patent specifications and
+increased portfolio value through sustained usage and conversion impact.
 
 Role Context:
 
