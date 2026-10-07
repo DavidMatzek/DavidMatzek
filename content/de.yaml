@@ -26,9 +26,9 @@ ui:
   nav_label: "Hauptnavigation"
   lang_label: "Sprache"
   lang_names: {en: "English", de: "Deutsch"}
-  header_cv: "CV herunterladen"
-  hero_cv: "↓\u00A0CV (2 Seiten, PDF) herunterladen"
-  footer_cv: "CV (2 Seiten) herunterladen"
+  header_cv: "Lebenslauf"
+  hero_cv: "↓\u00A0Lebenslauf (2 Seiten, PDF) herunterladen"
+  footer_cv: "Lebenslauf (2 Seiten) herunterladen"
   email: "E-Mail"
   legal: "Impressum & Datenschutz"
 
@@ -173,7 +173,7 @@ footer:
   title: "Kontakt"
   text: "München, Deutschland (hybrid; ich wohne in Nördlingen) · offen für unbefristete Senior-Rollen in Architektur und KI-Automatisierung in wachsenden Märkten."
   side_note: "Nebenprojekt: automatisierte Ausschreibungssoftware für Handwerks- und Baubetriebe in Deutschland."
-  colophon: "Mit KI gebaut — LaTeX-generierter CV und statische Website, bereitgestellt über GitHub Actions."
+  colophon: "Mit KI gebaut — LaTeX-generierter Lebenslauf und statische Website, bereitgestellt über GitHub Actions."
 
 cv:
   location: "München, Deutschland"

@@ -13,7 +13,10 @@ site:
   site_label: davidmatzek.github.io
   cv_pdf:
     en: David-Matzek-CV.pdf
-    de: David-Matzek-CV-DE.pdf
+    de: David-Matzek-Lebenslauf.pdf
+
+# Official home pages of employer and institutions (linked on the site and in the CV education section).
+employer_url: https://www.bmwgroup.com
 
 # Hero fact tiles: link target per tile (null = plain tile). Text per language: hero.facts.
 hero_fact_links: [null, "#case", "#case", null]
@@ -25,10 +28,10 @@ roles:
   - {id: function,  start: "04/2017", end: "11/2021"}
 
 education:
-  - {id: msc,        start: "10/2018", end: "10/2021"}
-  - {id: beng,       start: "10/2013", end: "01/2017"}
-  - {id: exchange,   start: "08/2015", end: "01/2016"}
-  - {id: apprentice, start: "09/2010", end: "07/2013"}
+  - {id: msc,        start: "10/2018", end: "10/2021", url: "https://www.hm.edu"}
+  - {id: beng,       start: "10/2013", end: "01/2017", url: "https://www.hs-esslingen.de"}
+  - {id: exchange,   start: "08/2015", end: "01/2016", url: "https://tec.mx"}
+  - {id: apprentice, start: "09/2010", end: "07/2013", url: "https://www.bmwgroup.com"}
 
 # CV selected case (page 2).
 case: {start: "01/2026", end: null}

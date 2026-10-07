@@ -107,7 +107,7 @@
 
   \mainsection{<< t.cv.sections.education|x >>}
 <% for e in d.education %>
-  \cvevent{<< e.start >> -- << e.end >>}{<< t.common.education[e.id].title|x >>}{<< t.common.education[e.id].org|x >>}{%
+  \cvevent{<< e.start >> -- << e.end >>}{<< t.common.education[e.id].title|x >>}{\href{<< e.url|xurl >>}{<< t.common.education[e.id].org|x >>}}{%
     \begin{cvitems}
 <% for b in t.cv.education[e.id] %>
       \item << b|x >>

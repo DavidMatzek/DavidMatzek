@@ -80,8 +80,8 @@ jobs:
           tectonic cv/generated/cv-en.tex --outdir cv/generated
           tectonic cv/generated/cv-de.tex --outdir cv/generated
           cp cv/generated/cv-en.pdf site/assets/David-Matzek-CV.pdf
-          cp cv/generated/cv-de.pdf site/assets/David-Matzek-CV-DE.pdf
-          python tools/check_pdf_pages.py site/assets/David-Matzek-CV.pdf site/assets/David-Matzek-CV-DE.pdf
+          cp cv/generated/cv-de.pdf site/assets/David-Matzek-Lebenslauf.pdf
+          python tools/check_pdf_pages.py site/assets/David-Matzek-CV.pdf site/assets/David-Matzek-Lebenslauf.pdf
 
       - name: Configure Pages
         uses: actions/configure-pages@v5

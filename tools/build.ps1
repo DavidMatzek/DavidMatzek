@@ -21,7 +21,7 @@ if ($LASTEXITCODE -ne 0) { throw "tools/build.py failed (exit $LASTEXITCODE)" }
 if ($SiteOnly) { return }
 
 # Keep in sync with content/data.yaml (site.cv_pdf).
-$targets = @{ en = 'David-Matzek-CV.pdf'; de = 'David-Matzek-CV-DE.pdf' }
+$targets = @{ en = 'David-Matzek-CV.pdf'; de = 'David-Matzek-Lebenslauf.pdf' }
 foreach ($lang in $targets.Keys) {
     $tex = Join-Path $root "cv/generated/cv-$lang.tex"
     if ($Png) { & (Join-Path $PSScriptRoot 'build-cv.ps1') -Tex $tex -Png } else { & (Join-Path $PSScriptRoot 'build-cv.ps1') -Tex $tex }

@@ -147,7 +147,7 @@
           <li>
             <div class="tl-date">{{ r.start }} — {{ r.end or t.common.today|h }}</div>
             <div class="tl-body">
-              <h3>{{ t.common.roles[r.id].title|h }} <span class="tl-org">{{ t.common.employer|h }}</span></h3>
+              <h3>{{ t.common.roles[r.id].title|h }} <span class="tl-org"><a href="{{ d.employer_url }}" rel="noopener">{{ t.common.employer|h }}</a></span></h3>
               <p>{{ t.experience.roles[r.id]|h }}</p>
             </div>
           </li>
@@ -173,7 +173,7 @@
           <li>
             <div class="tl-date">{{ e.start }} — {{ e.end }}</div>
             <div class="tl-body">
-              <h3>{{ t.common.education[e.id].title|h }} <span class="tl-org">{{ t.common.education[e.id].org|h }}</span></h3>
+              <h3>{{ t.common.education[e.id].title|h }} <span class="tl-org"><a href="{{ e.url }}" rel="noopener">{{ t.common.education[e.id].org|h }}</a></span></h3>
               <p>{{ t.education['items'][e.id]|h }}</p>
             </div>
           </li>
