@@ -3,7 +3,7 @@
 This file links achievements to proof points that can be selected during CV tailoring.
 
 ## Case Evidence
-- 7-agent AI automation layer (~15 reusable skills) plus self-service "VSS Explorer" UI for BMW's VSS data model, replacing manual PR/board/release governance and removing work equivalent to ~3 FTEs (~€350k/year) for 45+ contributors across 180+ consumer applications.
+- 7-agent AI automation layer (~15 reusable skills) plus self-service "VSS Explorer" UI for BMW's VSS data model, replacing manual PR/board/release governance and removing work equivalent to ~2.5 FTEs (two consultants and one internal position, ~€350k/year) for 45+ contributors across 180+ consumer applications.
 - First standardized service interface in BMW E/E architecture for automated window control.
 - Middleware architecture for cross-derivative vehicle data standardization.
 - End-to-end ownership and release delivery of intelligent in-car functions.
@@ -14,7 +14,7 @@ This file links achievements to proof points that can be selected during CV tail
 - DE102018209967A1: Automated configuration of vehicle functions.
 
 ## Standards and Ecosystem Evidence
-- Active contribution to COVESA-oriented data standardization activities.
+- Closely aligned with COVESA: guides BMW's COVESA liaison department and gives implementation feedback to the VSS community.
 
 ## Recommended Usage in CVs
 - Use one to three case bullets that map directly to the target role requirements.

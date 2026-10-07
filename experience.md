@@ -18,11 +18,11 @@ Functional and operational ownership of BMW's VSS-standardized data model
 and petabyte-scale historized data, serving 240 consumers with weekly
 release management and EU Data Act delivery coordination.
 
-- Stabilized always-on operations for 240 consumers after a staffing change and consultant budget cut, cutting daily effort from 20 hours to 35 minutes through AI-assisted refactoring and self-service design.
-- Designed and shipped 7 purpose-built AI agents (~15 reusable skills) and a self-service "VSS Explorer" web UI (from 01/2026) that automate PR triage, CI-failure fixing, legal (EU Data Act) classification, and release orchestration — removing governance work equivalent to ~3 FTEs (~€350k/year) and the git/PR literacy barrier for 45+ non-technical contributors across 180+ consumer applications.
+- Stabilized always-on operations for 240 consumers after a staffing change and consultant budget cut, cutting daily effort from ~24 hours to 35 minutes through AI-assisted refactoring and self-service design.
+- Designed and shipped 7 purpose-built AI agents (~15 reusable skills) and a self-service "VSS Explorer" web UI (from 01/2026) that automate PR triage, CI-failure fixing, legal (EU Data Act) classification, and release orchestration — removing governance work equivalent to ~2.5 FTEs (two consultants and one internal position, ~€350k/year) and the git/PR literacy barrier for 45+ non-technical contributors across 180+ consumer applications.
 - Delivered a metadata self-service page in 20 workdays, closing a request open since 2020 and reducing contractor dependency.
 - Migrating the model from taxonomic to graph-based structure with GraphQL SDL contracts to support future AI-ready use cases without disrupting live operations.
-- Governs the model through semantic versioning and CI/CD-backed quality checks, sustaining COVESA-aligned standardization across 240+ consumers without slowing weekly releases.
+- Guides BMW's COVESA liaison department (set up for compliance reasons) and gives implementation feedback to the VSS community; governs the model through semantic versioning and CI/CD-backed quality checks, sustaining COVESA-aligned standardization across 240+ consumers without slowing weekly releases.
 
 ---
 
@@ -64,7 +64,7 @@ End-to-end technical ownership of customer-facing intelligent in-car
 functions in a safety-critical, regulated setting.
 
 - Owned a customer-facing in-car function from idea to go-live over the full development lifecycle — a ~€3M program across 3 years — accountable end to end across the V-model.
-- Delivered four customer-facing functions to series release — two in 2019 and two in 2021 — generating two patent specifications.
+- Delivered six customer-facing functions to series release — two in 2019 and four in 2021 — generating three patent filings (sole inventor on two).
 - Introduced a standardized process for domain data usage in development, reducing rework across teams.
 - Mentored Bachelor and Master thesis candidates whose results were adopted in series development.
 
@@ -101,6 +101,6 @@ foundation in operational excellence, quality, and safety standards.
 
 ## Summary
 
-- 8+ years in data and systems architecture, preceded by 5+ years in engineering roles, all within complex, safety-critical, large-scale environments.
+- 9 years in engineering at BMW (since 2010), 5 of them in data architecture, all within complex, safety-critical, large-scale environments.
 - Proven ability to bridge business, architecture, and implementation.
 - Track record of cutting operating cost and consultant dependency through overhead automation, transparency, and self-service enablement.

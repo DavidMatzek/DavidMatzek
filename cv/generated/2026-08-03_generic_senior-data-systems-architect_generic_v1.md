@@ -5,7 +5,7 @@ Germany | [david.matzek@proton.me](mailto:david.matzek@proton.me) | [linkedin.co
 
 ## Professional Summary
 
-Senior Data and Systems Architect with 8+ years designing scalable data
+Senior Data and Systems Architect with BMW since 2010: 9 years in engineering, 5 of them in data architecture, designing scalable data
 architectures in complex, regulated environments. I design and ship
 multi-agent AI systems that automate governance, CI/CD, and release
 workflows — removing the slow, manual work that blocks teams, and the
@@ -18,8 +18,8 @@ outcomes.
 
 ## Proof in Numbers
 
-- Built a 7-agent AI system (~15 reusable skills) that automates governance work equivalent to ~3 FTEs (~€350k/year), serving 45+ contributors across 180+ consumer applications with a sustained weekly release cadence.
-- Cut daily operating effort from 20 hours to 35 minutes for a 240-consumer data-model landscape after a staffing and budget cut.
+- Built a 7-agent AI system (~15 reusable skills) that automates governance work equivalent to ~2.5 FTEs (two consultants and one internal position, ~€350k/year), serving 45+ contributors across 180+ consumer applications with a sustained weekly release cadence.
+- Cut daily operating effort from ~24 hours to 35 minutes for a 240-consumer data-model landscape after a staffing and budget cut.
 - Delivered a metadata self-service capability in 20 workdays, closing a request that had been open for 6 years.
 - Kept a mission-critical, always-on data model stable through a consultant budget cut with zero service interruption.
 
@@ -42,8 +42,8 @@ outcomes.
 
 **BMW Group** | *01/2025 – Present*
 
-- Stabilized always-on operations for 240 consumers after a staffing change and consultant budget cut, cutting daily effort from 20 hours to 35 minutes through AI-assisted refactoring and self-service design.
-- Designed and shipped 7 purpose-built AI agents (~15 reusable skills) and a self-service "VSS Explorer" web UI (from 01/2026) that automate PR triage, CI-failure fixing, legal (EU Data Act) classification, and release orchestration — removing governance work equivalent to ~3 FTEs (~€350k/year) and the git/PR literacy barrier for 45+ non-technical contributors across 180+ consumer applications.
+- Stabilized always-on operations for 240 consumers after a staffing change and consultant budget cut, cutting daily effort from ~24 hours to 35 minutes through AI-assisted refactoring and self-service design.
+- Designed and shipped 7 purpose-built AI agents (~15 reusable skills) and a self-service "VSS Explorer" web UI (from 01/2026) that automate PR triage, CI-failure fixing, legal (EU Data Act) classification, and release orchestration — removing governance work equivalent to ~2.5 FTEs (two consultants and one internal position, ~€350k/year) and the git/PR literacy barrier for 45+ non-technical contributors across 180+ consumer applications.
 - Delivered a metadata self-service page in 20 workdays, closing a request open since 2020 and reducing contractor dependency.
 - Migrating the model from taxonomic to graph-based structure with GraphQL SDL contracts to support future AI-ready use cases without disrupting live operations.
 - Governs the model through semantic versioning and CI/CD-backed quality checks, sustaining COVESA-aligned standardization across 240+ consumers without slowing weekly releases.
@@ -68,7 +68,7 @@ outcomes.
 
 **BMW Group** | *04/2017 – 11/2021*
 
-- Delivered multiple customer-facing functions from concept to series release, generating two patent specifications.
+- Delivered multiple customer-facing functions from concept to series release, generating three patent filings.
 - Introduced a standardized process for domain data usage in development, reducing rework across teams.
 - Mentored Bachelor and Master thesis candidates whose results were adopted in series development.
 
@@ -91,7 +91,7 @@ outcomes.
 - [WO2020083962A1](https://worldwide.espacenet.com/patent/search/family/068392967/publication/WO2020083962A1?q=pn%3DWO2020083962A1) — Apparatus and control unit for automating a state change of a window pane of a vehicle (event-driven vehicle control, embedded state transitions)
 - [WO2020011655A1](https://worldwide.espacenet.com/patent/search/family/067514555/publication/WO2020011655A1?q=pn%3DWO2020011655A1) — Method and system for detecting data in vehicles (vehicle data acquisition, data abstraction layers)
 - [DE102018209967A1](https://worldwide.espacenet.com/patent/search/family/068805912/publication/DE102018209967A1?q=pn%3DDE102018209967A1) — Automated configuration of vehicle functions (rule-based system behavior, software-defined vehicle concepts)
-- Active contributor to COVESA-aligned data standardization activities
+- Guides BMW's COVESA liaison department and gives implementation feedback to the VSS community
 
 ## Languages
 

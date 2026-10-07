@@ -51,7 +51,7 @@ profile against a role.
 - Data Steward for petabyte-scale historized data sets
 - Reliability and evolution responsibility for a live model used by 240 consumers
 - Implementation coordination for EU Data Act requirements across consuming systems
-- Design and operation of a 7-agent AI automation layer (~15 reusable skills) plus a self-service "VSS Explorer" UI, automating governance work equivalent to ~3 FTEs for 45+ contributors across 180+ consumer applications
+- Design and operation of a 7-agent AI automation layer (~15 reusable skills) plus a self-service "VSS Explorer" UI, automating governance work equivalent to ~2.5 FTEs (two consultants and one internal position) for 45+ contributors across 180+ consumer applications
 
 ---
 
@@ -59,7 +59,7 @@ profile against a role.
 
 | Category | Tools |
 | --- | --- |
-| Development & Versioning | VS Code, Git & GitHub |
+| Development & Versioning | VS Code, Git & GitHub, Python, GraphQL SDL, YAML, Cloud |
 | Data Standardization | COVESA Vehicle Signal Specification (VSS), YAML-based data models |
 | Modeling | MBSE tooling, ontology-based modeling |
 | Project & Process | Atlassian JIRA & Confluence, ALM Octane |

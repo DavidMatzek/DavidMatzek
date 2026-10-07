@@ -8,7 +8,7 @@ person:
 
 positioning:
   summary: >-
-    Data and systems architect with 8+ years in complex and regulated environments,
+    Data and systems architect with BMW since 2010: 9 years in engineering, 5 in data architecture, in complex and regulated environments,
     focused on domain data modeling, governance, and scalable platform architectures —
     cutting operating cost and consultant dependency while accelerating delivery through
     AI automation.
@@ -23,7 +23,7 @@ value_propositions:
     proof: Created a BMW group-wide E/E data process; delivered a 6-year-open self-service capability in 20 workdays.
   - title: End-to-end automation, managed
     outcome: Multi-agent AI systems that replace consultant and headcount cost while delivery accelerates.
-    proof: 7-agent VSS system (~15 reusable skills) removing work equal to ~3 FTEs; sustained weekly releases.
+    proof: 7-agent VSS system (~15 reusable skills) removing work equal to ~2.5 FTEs (two consultants + one internal position); sustained weekly releases.
   - title: Decision & check automation
     outcome: From governance and CI/CD gates to production-line quality checks.
     proof: 3 patents on automating vehicle functions and state changes; MBSE; production-line background.
@@ -52,10 +52,10 @@ experience:
       - Governance via semantic versioning and CI/CD-backed quality checks
       - Multi-agent AI automation of governance workflows (PR triage, CI-fixing, release orchestration, self-service contribution)
     outcomes:
-      - Stabilized 240-consumer operations after a staffing and budget cut, cutting daily effort from 20 hours to 35 minutes
+      - Stabilized 240-consumer operations after a staffing and budget cut, cutting daily effort from ~24 hours to 35 minutes
       - Delivered a metadata self-service page in 20 workdays
-      - Sustained COVESA-aligned standardization through automated governance
-      - Built 7 purpose-built AI agents (~15 reusable skills) and a self-service "VSS Explorer" UI (from 01/2026), automating governance work equivalent to ~3 FTEs (~€350k/year) for 45+ contributors across 180+ consumer applications while sustaining a weekly release cadence
+      - Guides BMW's COVESA liaison department and gives implementation feedback to the VSS community
+      - Built 7 purpose-built AI agents (~15 reusable skills) and a self-service "VSS Explorer" UI (from 01/2026), automating governance work equivalent to ~2.5 FTEs (two consultants and one internal position, ~€350k/year) for 45+ contributors across 180+ consumer applications while sustaining a weekly release cadence
 
   - company: BMW Group
     role: Lead Data Designer
@@ -92,7 +92,7 @@ experience:
       - Function design, implementation, validation, and release support
     outcomes:
       - Owned a ~€3M customer-facing in-car function program over 3 years from idea to series go-live (full lifecycle)
-      - Four customer-facing functions to series release (two in 2019, two in 2021)
+      - Six customer-facing functions to series release (two in 2019, four in 2021)
       - Standardized process for domain data usage in development
 
 education:

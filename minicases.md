@@ -8,9 +8,9 @@ produced it.
 ## Featured Case: AI-Agent Automation for Vehicle Signal Specification (VSS) Data Model Governance
 
 Result: Daily operations dropped from an effective workload equivalent to
-about 20 hours/day to about 35 minutes/day for a 240+ consumer data model.
-Automated away governance work equivalent to ~3 full-time employees
-(~€350k/year fully-loaded cost) while serving 45+ regular contributors,
+about 24 hours/day to about 35 minutes/day for a 240+ consumer data model.
+Replaced two consultants and one internal position (~2.5 FTE, ~€350k/year
+fully-loaded cost) while serving 45+ regular contributors,
 sustaining a weekly release cadence with far less manual review overhead. A
 metadata self-service page requested since 2020 was delivered in 20
 workdays, contractor dependency dropped, and freed capacity was redirected
@@ -29,7 +29,7 @@ Situation:
 
 From January 2026, a critical data-model operation had to continue after
 staffing changes and consultant budget cuts (the previous setup relied on
-one internal owner plus two external consultants). At the same time,
+two external consultants and one internal position). At the same time,
 maintaining the VSS repo required manual PR review and labeling, board
 triage, release orchestration, and CI-failure fixing. Every contributor
 needed GitHub write access and had to author a pull request themselves —
@@ -39,7 +39,7 @@ support.
 Team Goal:
 
 - Keep operations stable while reducing cost and overhead.
-- Remove governance overhead consuming the equivalent of ~3 FTEs.
+- Remove governance overhead consuming the equivalent of ~2.5 FTEs.
 - Remove the git/PR literacy barrier for non-technical contributors.
 - Build a support model that scales without contractor dependency.
 - Keep a sustained weekly release cadence, run alongside the ongoing
@@ -188,8 +188,8 @@ What Was Implemented:
 
 Result: Owned a customer-facing in-vehicle function end to end — from idea to
 series go-live across the full development lifecycle — as a ~€3M program over 3
-years. Shipped two customer-facing functions to series release in 2019 and two
-more in 2021 — four in total — generating two patent specifications and
+years. Shipped two customer-facing functions to series release in 2019 and four
+more in 2021 — six in total — generating three patent filings and
 increased portfolio value through sustained usage and conversion impact.
 
 Role Context:
@@ -222,7 +222,7 @@ Business Impact:
 
 - Steered a ~€3M budget over 3 years to a successful series go-live.
 - Turned a late-start, tight-budget initiative into shipped customer value and
-  two patents.
+  three patent filings.
 
 ---
 

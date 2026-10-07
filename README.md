@@ -1,7 +1,7 @@
 # David Matzek
 
-Senior Data and Systems Architect with 8+ years of experience in complex,
-regulated environments.
+Senior Data and Systems Architect with BMW since 2010: 9 years in engineering,
+5 of them in data architecture, in complex, regulated environments.
 
 ## Value Proposition
 
@@ -11,7 +11,7 @@ working long after I've moved on.
 
 ## Proof in Numbers
 
-- Cut daily operating effort from 20 hours to 35 minutes for a 240-consumer data-model landscape after a staffing and budget cut.
+- Cut daily operating effort from ~24 hours to 35 minutes for a 240-consumer data-model landscape after a staffing and budget cut, replacing two consultants and one internal position (~2.5 FTE, ~€350k/year).
 - Delivered a metadata self-service capability in 20 workdays, closing a request that had been open for 6 years.
 - Kept a mission-critical, always-on data model stable through a consultant budget cut with zero service interruption.
 - Replaced status-chasing with a self-service dashboard showing exactly where each process stands, what's missing, and what to do next.
@@ -32,7 +32,7 @@ implementation across consuming systems.
 
 ## Recent Pattern: Called In When Budget Cuts Hit
 
-In July 2026, budget cuts hit across the organization. Instead of pausing
+In January 2026, budget cuts hit across the organization. Instead of pausing
 delivery, management repeatedly assigned me to the critical projects most at
 risk.
 
@@ -49,14 +49,14 @@ Why this matters for hiring teams:
 
 ## Featured Case: Turnaround Under Budget Pressure
 
-Result: Daily operating effort dropped from 20 hours to 35 minutes for a
+Result: Daily operating effort dropped from ~24 hours to 35 minutes for a
 240-consumer data model, a 6-year-old self-service request was delivered in
 20 workdays, and freed capacity was redirected to other budget-constrained
 projects.
 
 Context: From January 2026, a critical data-model operation had to continue
 after staffing changes and consultant budget cuts. The prior setup required
-one internal owner plus two external consultants.
+two external consultants and one internal position (~2.5 FTE).
 
 Approach:
 
@@ -125,8 +125,8 @@ Typical outcomes:
 - Led domain-wide data architecture and standardization initiatives at BMW Group.
 - Designed middleware-based data standardization approaches for complex vehicle platforms.
 - Delivered customer-facing intelligent functions from concept to series release.
-- Contributed to open data standardization initiatives aligned with COVESA.
-- Co-inventor of multiple patents in data-driven vehicle systems.
+- Closely aligned with COVESA: I guide BMW's COVESA liaison department and give implementation feedback to the VSS standard.
+- Inventor on three patent filings in data-driven vehicle systems (sole inventor on two).
 
 Detailed examples:
 

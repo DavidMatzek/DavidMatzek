@@ -3,7 +3,7 @@
 Use this as the canonical source when drafting role-specific CV summaries.
 
 ## Core Profile
-Senior Data and Systems Architect with 8+ years of experience designing scalable data architectures in complex, regulated environments. Strong in data modeling, standardization, and governance. Bridges business, architecture, and implementation — cutting operating cost and consultant dependency while accelerating delivery and protecting long-term platform outcomes.
+Senior Data and Systems Architect with BMW since 2010: 9 years in engineering, 5 of them in data architecture, in complex, regulated environments. Strong in data modeling, standardization, and governance. Bridges business, architecture, and implementation — cutting operating cost and consultant dependency while accelerating delivery and protecting long-term platform outcomes.
 
 ## Value Proposition Pillars
 - Cuts operating cost and consultant dependency by automating recurring manual governance, CI/CD, and release work.
@@ -30,6 +30,6 @@ Best fit for roles that ask for strong execution and measurable outcomes.
 ### Innovation and Standardization Emphasis
 Best fit for roles that include innovation, standards, or ecosystem collaboration.
 
-- Active contributor to COVESA-aligned standardization activities
+- Closely aligned with COVESA: guides BMW's COVESA liaison department and gives implementation feedback to the VSS community
 - Applies MBSE and automation to accelerate architecture consistency
 - Integrates structured modeling approaches to enable AI-ready data landscapes

@@ -16,7 +16,9 @@
 %   \cvevent{dates}{title}{subtitle}{bullets}
 %   \patent{id}{title}{url}
 %   \lang{name}{note}{0..5}  \tool{name}{note}{0..5}
+%   \toolgroup{group}{tools}           tool group without proficiency dots
 %   cvitems                            bulleted list environment
+%   cvhl                               checkmark list for highlights
 % =====================================================================
 \documentclass[10pt,a4paper]{article}
 
@@ -85,7 +87,10 @@
 
 % ---------- Bulleted lists ----------
 \newlist{cvitems}{itemize}{1}
-\setlist[cvitems]{label={\color{accent}\raisebox{0.1ex}{\small\textbf{>}}},leftmargin=3.4mm,labelsep=1.4mm,topsep=0.3mm,itemsep=0.5mm,parsep=0pt}
+\setlist[cvitems]{label={\color{accent}\raisebox{0.35ex}{\fontsize{4}{4}\selectfont\faSquare}},leftmargin=3.6mm,labelsep=1.6mm,topsep=0.3mm,itemsep=0.5mm,parsep=0pt,before=\RaggedRight}
+
+\newlist{cvhl}{itemize}{1}
+\setlist[cvhl]{label={\color{accent}\raisebox{0.1ex}{\footnotesize\faCheck}},leftmargin=5mm,labelsep=1.6mm,topsep=0.3mm,itemsep=1.4mm,parsep=0pt}
 
 % ---------- Timeline event: dates | title / subtitle / bullets ----------
 \newcommand{\cvevent}[4]{%
@@ -105,6 +110,7 @@
 % ---------- Sidebar language / tool blocks ----------
 \newcommand{\lang}[3]{{\bfseries #1}\\[0.1mm]{\footnotesize\color{subgray}#2}\\[0.8mm]\prof{#3}\par\vspace{1.8mm}}
 \newcommand{\tool}[3]{{\color{accent}\bfseries #1}\\[0.1mm]{\footnotesize\color{subgray}#2}\\[0.8mm]\prof{#3}\par\vspace{1.8mm}}
+\newcommand{\toolgroup}[2]{{\color{accent}\bfseries #1}\\[0.1mm]{\footnotesize\color{subgray}#2}\par\vspace{2.4mm}}
 
 % ---------- Photo (drop cv/assets/photo.jpg to replace placeholder) ----------
 \newcommand{\photobox}{%
